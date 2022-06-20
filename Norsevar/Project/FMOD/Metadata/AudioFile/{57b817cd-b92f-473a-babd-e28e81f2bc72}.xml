@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{57b817cd-b92f-473a-babd-e28e81f2bc72}">
+		<property name="assetPath">
+			<value>Erik/Trailer.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>48.692244897959185</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{30f14458-d000-4740-9a20-f17c5723a325}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aa70444c-013a-42df-a663-d84ee0d6efd8}">
+		<property name="assetPath">
+			<value>Enemy/Wolf/Enemy_Wolf_Prescence01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.7837414965986396</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{30f14458-d000-4740-9a20-f17c5723a325}</destination>
+		</relationship>
+	</object>
+</objects>

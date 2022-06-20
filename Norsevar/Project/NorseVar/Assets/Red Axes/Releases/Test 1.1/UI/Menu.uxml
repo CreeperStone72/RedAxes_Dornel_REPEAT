@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Red%20Axes/Features/Menu/UIToolkit/menu-styles.uss?fileID=7433441132597879392&amp;guid=eb49c62ab1e49724fa81293ad1c0fecf&amp;type=3#menu-styles" />
+    <ui:VisualElement name="background-image" style="flex-grow: 1; flex-direction: row-reverse; -unity-background-scale-mode: stretch-to-fill; background-image: url(&apos;project://database/Assets/Red%20Axes/Features/Menu/Images/scarxdeadc.png?fileID=21300000&amp;guid=f3a34dc2f418d464ab5bf44738bb20e5&amp;type=3#scarxdeadc&apos;);">
+        <ui:VisualElement style="width: 30%; padding-left: 5%; padding-right: 5%; padding-top: 4%; padding-bottom: 3%; margin-top: 0;">
+            <ui:VisualElement name="logo" style="height: 20%; background-image: url(&apos;project://database/Assets/Red%20Axes/Features/Menu/Images/Concept_art_no_glow.png?fileID=2800000&amp;guid=ef047f95213f5e345872ff6b37d24392&amp;type=3#Concept_art_no_glow&apos;); -unity-background-scale-mode: scale-to-fit; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:VisualElement style="flex-grow: 1; padding-top: 50%; padding-bottom: 50%;">
+                <ui:Button text="Play" name="play-button" class="menu-button" />
+                <ui:Button text="Controls" name="settings-button" class="menu-button" />
+                <ui:Button text="Quit" name="quit-button" class="menu-button" style="margin-top: 35%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

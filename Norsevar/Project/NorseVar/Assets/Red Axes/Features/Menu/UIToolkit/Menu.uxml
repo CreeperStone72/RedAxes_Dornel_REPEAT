@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Red%20Axes/Features/Menu/UIToolkit/menu-styles.uss?fileID=7433441132597879392&amp;guid=eb49c62ab1e49724fa81293ad1c0fecf&amp;type=3#menu-styles" />
+    <ui:VisualElement name="background-image" style="flex-grow: 1; flex-direction: row-reverse; background-image: url(&apos;project://database/Assets/Red%20Axes/Releases/Common/Sprites/SnowSpriteSheet%20(1).png?fileID=1995752424&amp;guid=c4fc52dc84b71da45878bc9428dc6589&amp;type=3#SnowSpriteSheet (1)_0&apos;); -unity-background-scale-mode: scale-to-fit;">
+        <ui:VisualElement style="width: 30%; padding-left: 5%; padding-right: 5%; padding-top: 2%; padding-bottom: 0;">
+            <ui:VisualElement name="logo" style="height: 20%; background-image: url(&apos;project://database/Assets/Red%20Axes/Features/Menu/Images/logo.png?fileID=2800000&amp;guid=806196d68be683a41b5a4dd7444f1dbf&amp;type=3#logo&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            <ui:VisualElement style="flex-grow: 1; padding-top: 50%; padding-bottom: 50%;">
+                <ui:Button text="Play" name="play-button" class="menu-button" />
+                <ui:Button text="Settings" name="settings-button" class="menu-button" />
+                <ui:Button text="Presentation" name="presentation-button" enable-rich-text="true" class="menu-button" />
+                <ui:Button text="Quit" name="quit-button" class="menu-button" style="margin-top: 35%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

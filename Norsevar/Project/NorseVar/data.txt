@@ -1,0 +1,30 @@
+28/04/2022 16:00:09
+Norsevar
+
+----------Rooms Encountered----------
+Fight rooms encountered: 0
+Merchant rooms encountered: 0
+Upgrade rooms encountered: 0
+Rooms cleared: 0
+
+---------------Attacks---------------
+Ground slams used: 20
+Dashes used: 34
+Enemies killed: 10
+Charge attack used: 0
+Attack used: 19
+Crit made: 3
+Max damage made: 82.5
+
+---------------Player----------------
+Death count: 0
+Poisoned count: 4
+Upgrades collected: 3
+Money collected: 0
+
+----------------Game----------------
+Rounds played: 0
+Avg time per fight: NaN
+
+----------------Extra---------------
+Crows hit: 0

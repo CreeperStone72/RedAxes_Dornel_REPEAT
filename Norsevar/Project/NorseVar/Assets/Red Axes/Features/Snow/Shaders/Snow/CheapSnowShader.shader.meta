@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 515334a1d25983642b6617e01d2b497d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SnowTex: {fileID: 2800000, guid: 0e16611dc4905bc40b3602e5077d5d94, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

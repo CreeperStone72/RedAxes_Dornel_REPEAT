@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cf31afbdb2f854cbc882f3b1c7c89f, type: 3}
+  m_Name: 06_WalkInThePark
+  m_EditorClassIdentifier: 
+  sound: 1
+  fmodEvent:
+    Guid:
+      Data1: -705349485
+      Data2: 1143868812
+      Data3: -1347403899
+      Data4: 800175152
+    Path: event:/SFX/Voicelines/Erik/Level1/Lv1_walkinthebleedinpark
+  vfx: 0
+  vfxOffset: {x: 0, y: 0, z: 0}
+  vfxPrefab: {fileID: 0}
+  vfxTime: 0
+  timeScale: 0
+  timeScaleData: {fileID: 0}
+  playerSay: 1
+  playerSayText: This should've been a walk in the park...
+  startDialogue: 0
+  dialogueId: 

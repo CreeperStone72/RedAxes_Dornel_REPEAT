@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50a04359a7116ee46b49aec45e3e1df6, type: 3}
+  m_Name: Wolf
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: Wolf
+  description: 
+  stats:
+    strength: 1
+    speed: 17
+    vitality: 17
+  health:
+    baseHealth: 50
+    baseArmor: 0
+  states: {fileID: 11400000, guid: 6d53444957d3ac24cb7a0a9be533f575, type: 2}
+  attackType: {fileID: 11400000, guid: d3d29d742f2efe249957ef8665a2f62f, type: 2}
+  icon: {fileID: 2800000, guid: 72d30491975f6a648bfd449c503fb583, type: 3}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fa5b157b3f4a1a95c25a2d11db116b, type: 3}
+  m_Name: Menu
+  m_EditorClassIdentifier: 
+  texture2D:
+  - {fileID: 2800000, guid: a2b3e1be28795ec48abdd0648cd5b2d6, type: 3}
+  - {fileID: 2800000, guid: 81e9c14ac3ce356418c0b42587fff916, type: 3}
+  - {fileID: 2800000, guid: 8a3f3fc41b2319a49a2f0a8afdcecc49, type: 3}
+  - {fileID: 2800000, guid: 08a2eb0f7d24a1c47a25229055895a2c, type: 3}
+  - {fileID: 2800000, guid: cf3e23ecbd261c54890e15a8089c67ef, type: 3}
+  - {fileID: 2800000, guid: a58959a42726d2d439ef93b79db559ea, type: 3}
+  - {fileID: 2800000, guid: 5ff0c51f813d4634284296734252d2e8, type: 3}
+  - {fileID: 2800000, guid: 61ce626f8264282459c30d9d1f7e1fc7, type: 3}
+  - {fileID: 2800000, guid: 018c0565d017adb44b6de56a89baa247, type: 3}
+  - {fileID: 2800000, guid: 72c1435da4c691b46951e570773db2ff, type: 3}
+  - {fileID: 2800000, guid: 6c52f9c51ed101e4197ffeb9284c15aa, type: 3}
+  - {fileID: 2800000, guid: bc643ff66b9b60d468a7353abd43ff94, type: 3}
+  - {fileID: 2800000, guid: 0166bad91b412ca4f92e7a6a5e2f1e93, type: 3}
+  - {fileID: 2800000, guid: 095cfba6119a91c44a38aaf002d85a35, type: 3}
+  - {fileID: 2800000, guid: 119f13d85605a2046b8b3f3064ee084b, type: 3}
+  - {fileID: 2800000, guid: 125da279758ae1448baf992d80e05dc8, type: 3}
+  - {fileID: 2800000, guid: 52ec650041791b548acea151eb0799cf, type: 3}
+  - {fileID: 2800000, guid: ce52259fd3afe284d91978b1fa55a558, type: 3}
+  - {fileID: 2800000, guid: 71a8acd019de48040b53aae88c41de94, type: 3}
+  - {fileID: 2800000, guid: e3b574739986d024aa87d86f45372cc3, type: 3}
+  - {fileID: 2800000, guid: 70ec11e0d8899634a942e87a1b567d09, type: 3}
+  - {fileID: 2800000, guid: 64f7f001cf53f5f4e9ec58e0ada8f042, type: 3}
+  - {fileID: 2800000, guid: 6a8d4ccbc75ef7747a43405d7d6edc48, type: 3}
+  - {fileID: 2800000, guid: 40ff211b65aeec241b6af4af31994319, type: 3}
+  - {fileID: 2800000, guid: 2f07cd6ac6e99544096984661c0c442d, type: 3}
+  - {fileID: 2800000, guid: a8e3ecb4ee5c2b648841b1ff49547dbf, type: 3}
+  - {fileID: 2800000, guid: 43ca698550d41be4396b129e0334cb9b, type: 3}
+  fps: 6

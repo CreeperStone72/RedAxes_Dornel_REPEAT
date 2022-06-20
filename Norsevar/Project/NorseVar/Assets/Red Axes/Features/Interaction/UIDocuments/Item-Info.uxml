@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="height: 30%; flex-direction: row; background-color: rgb(72, 72, 72);">
+        <ui:VisualElement name="Icon"
+                          style="background-image: url(&apos;project://database/Assets/Red%20Axes/Features/Interaction/Textures/Not_Implemented.png?fileID=2800000&amp;guid=5593855af55682e4ebd1e858f316a348&amp;type=3#Not_Implemented&apos;); -unity-background-scale-mode: scale-to-fit; width: 40%; margin-left: 0; margin-right: 0; margin-top: 2%; margin-bottom: 2%;"/>
+        <ui:Label text="Name" display-tooltip-when-elided="true" name="Name"
+                  style="flex-grow: 1; -unity-text-align: middle-center; font-size: 50%; color: rgb(210, 210, 210);"/>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; background-color: rgb(72, 72, 72);">
+        <ui:Label name="Description" text="Description"
+                  style="height: 30%; padding-left: 2%; padding-right: 2%; padding-top: 2%; padding-bottom: 2%; white-space: normal; -unity-font-style: normal; font-size: 12%;"/>
+        <ui:VisualElement name="Stats" style="flex-grow: 1;"/>
+        <ui:Label text="Price : 50" display-tooltip-when-elided="true" name="Price"
+                  style="height: 10%; -unity-text-align: middle-center; font-size: 30%;"/>
+    </ui:VisualElement>
+    <ui:VisualElement
+            style="height: 10%; flex-direction: row; background-color: rgb(72, 72, 72); padding-left: 9px; padding-right: 9px; padding-top: 9px; padding-bottom: 9px;">
+        <ui:Button text="Buy" display-tooltip-when-elided="true" name="Buy"
+                   style="-unity-text-align: middle-center; width: 50%; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(38, 38, 38); border-right-color: rgb(38, 38, 38); border-top-color: rgb(38, 38, 38); border-bottom-color: rgb(38, 38, 38); border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; margin-right: 4px; background-color: rgb(16, 103, 11); color: rgb(0, 0, 0); font-size: 25%;"/>
+        <ui:Button text="Close" display-tooltip-when-elided="true" name="Close"
+                   style="-unity-text-align: middle-center; width: 50%; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(38, 38, 38); border-right-color: rgb(38, 38, 38); border-top-color: rgb(38, 38, 38); border-bottom-color: rgb(38, 38, 38); border-top-left-radius: 16px; border-bottom-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; margin-left: 4px; background-color: rgb(103, 13, 11); color: rgb(0, 0, 0); font-size: 25%;"/>
+    </ui:VisualElement>
+</ui:UXML>

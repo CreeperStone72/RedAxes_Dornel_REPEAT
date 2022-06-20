@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78aace5975b3451789bbd781e54e0ef5, type: 3}
+  m_Name: PlayerMovementData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: Player Movement Config
+  description: Holds the movement related data required by the Player Movement script.
+  smoothInputSpeed: 0.2
+  mouseRaycastPlanePrefab: {fileID: 773460695144752527, guid: 6a8c8979652a4de4cb529df578047a29, type: 3}
+  mousePositionLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  mousePositionMarkerPrefab: {fileID: 1492415789138872, guid: e6e04e01b5315c84f89cf664adf669d6, type: 3}
+  mouseMarkerOffset: {x: 0, y: 1, z: 0}
+  mouseMarkerMaxDistance: 2
+  dashSpeed: 15
+  dashTime: 0.5

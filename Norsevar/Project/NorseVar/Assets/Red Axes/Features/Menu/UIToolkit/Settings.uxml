@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Red%20Axes/Common/Uss/Settings.uss?fileID=7433441132597879392&amp;guid=a6df23da52ed93d4482ad40307f86582&amp;type=3#Settings" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.53);">
+        <ui:VisualElement name="background" style="flex-grow: 1; margin-left: 10%; margin-right: 10%; padding-left: 0; padding-right: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; background-color: rgba(0, 0, 0, 0.27);">
+            <ui:VisualElement style="margin-left: 10%; flex-grow: 1; margin-right: 8%; margin-top: 5%; align-items: center; background-color: rgba(0, 0, 0, 0);">
+                <ui:VisualElement style="width: 1000px; height: 500px; position: absolute; top: 10%; background-color: rgba(88, 88, 88, 0.3);">
+                    <ui:VisualElement name="gif" style="flex-grow: 1; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; -unity-background-scale-mode: scale-to-fit;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; position: absolute; bottom: 20%;">
+                    <ui:Button name="wasd" class="control-buttons" style="background-color: rgba(88, 88, 88, 0.3);">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Red%20Axes/Common/Images/Keys.png?fileID=2800000&amp;guid=34dc5d1aab20cfe4ca2e034cfff937e2&amp;type=3#Keys&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="space" class="control-buttons" style="background-color: rgba(88, 88, 88, 0.3);">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Red%20Axes/Common/Images/Spacebar.png?fileID=2800000&amp;guid=e5b8b9f842eeb4a42af989bcc227a3f2&amp;type=3#Spacebar&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="shift" class="control-buttons" style="background-color: rgba(88, 88, 88, 0.3);">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Red%20Axes/Common/Images/LeftShift.png?fileID=2800000&amp;guid=7bfbde9d6ba215342aa7112f8a396eda&amp;type=3#LeftShift&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="press" class="control-buttons" style="background-color: rgba(88, 88, 88, 0.3);">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Red%20Axes/Common/Images/MousePress.png?fileID=2800000&amp;guid=2e523662549b1ff4ea665f6330f6e175&amp;type=3#MousePress&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="hold" class="control-buttons" style="background-color: rgba(88, 88, 88, 0.3);">
+                        <ui:VisualElement style="background-image: url(&apos;project://database/Assets/Red%20Axes/Common/Images/MouseHold.png?fileID=2800000&amp;guid=e694b272fe655e847ada10af8255632c&amp;type=3#MouseHold&apos;); flex-grow: 1; -unity-background-scale-mode: scale-to-fit; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;" />
+                    </ui:Button>
+                </ui:VisualElement>
+                <ui:Button text="Close" display-tooltip-when-elided="true" name="close-button" style="position: absolute; bottom: 10%; font-size: 32px; padding-left: 50px; padding-right: 50px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; -unity-font-definition: url(&apos;project://database/Assets/Viking%20SDF.asset?fileID=11400000&amp;guid=0ec7002a3752b404788e7b82b94ca6a8&amp;type=2#Viking SDF&apos;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

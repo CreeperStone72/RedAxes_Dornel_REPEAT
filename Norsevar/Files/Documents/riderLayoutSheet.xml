@@ -1,0 +1,182 @@
+<Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns"
+          xmlns:unity="urn:schemas-jetbrains-com:member-reordering-patterns-unity">
+
+    <!-- Pattern to match classes used by Unity that contain serialised fields and event
+         function methods. Based on the standard "Default Pattern", this will also order
+         event functions before normal methods, and does not reorder serialised fields,
+         as this order is reflected in the Unity editor's Inspector -->
+    <TypePattern DisplayName="Unity classes" Priority="100">
+        <TypePattern.Match>
+            <unity:SerializableClass/>
+        </TypePattern.Match>
+
+        <Region Name="Constants and Statics" Priority="100">
+            <Entry DisplayName="Constants and Statics">
+                <Entry.Match>
+                    <Or>
+                        <Kind Is="Constant"/>
+                        <And>
+                            <Kind Is="Field"/>
+                            <Static/>
+                        </And>
+                    </Or>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Kind>
+                        <Kind.Order>
+                            <DeclarationKind>Constant</DeclarationKind>
+                            <DeclarationKind>Field</DeclarationKind>
+                        </Kind.Order>
+                    </Kind>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Delegates and Events" Priority="100">
+            <Entry DisplayName="Delegates and Events">
+                <Entry.Match>
+                    <Or>
+                        <Kind Is="Delegate"/>
+                        <And>
+                            <Kind Is="Method"/>
+                            <Name Is="On.*" />
+                        </And>
+                    </Or>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Kind/>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Private Fields">
+            <Entry DisplayName="Private Fields">
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Field"/>
+                        <Access Is="Private"/>
+                        <Not>
+                            <unity:SerializedField/>
+                        </Not>
+                    </And>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Readonly/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Protected Fields">
+            <Entry DisplayName="Protected Fields">
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Field"/>
+                        <Access Is="Protected"/>
+                        <Not>
+                            <unity:SerializedField/>
+                        </Not>
+                    </And>
+                </Entry.Match>
+            </Entry>
+        </Region>
+
+        <Region Name="Serialized Fields">
+            <Entry DisplayName="Serialized Fields">
+                <Entry.Match>
+                    <unity:SerializedField/>
+                </Entry.Match>
+            </Entry>
+        </Region>
+
+        <Region Name="Constructors">
+            <Entry DisplayName="Constructors">
+                <Entry.Match>
+                    <Kind Is="Constructor"/>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Static/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Public Properties">
+            <Entry DisplayName="Public Properties">
+                <Entry.Match>
+                    <Kind Is="Property"/>
+                </Entry.Match>
+            </Entry>
+        </Region>
+
+        <Region Name="Unity Methods">
+            <Entry DisplayName="Unity Methods">
+                <Entry.Match>
+                    <unity:EventFunction/>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <unity:EventFunctionName/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Private Methods">
+            <Entry DisplayName="Private Methods">
+                <Entry.Match>
+                    <And>
+                        <Not>
+                            <unity:EventFunction/>
+                        </Not>
+                        <Kind Is="Method"/>
+                        <Access Is="Private"/>
+                    </And>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Protected Methods">
+            <Entry DisplayName="Protected Methods">
+                <Entry.Match>
+                    <And>
+                        <Not>
+                            <unity:EventFunction/>
+                        </Not>
+                        <Kind Is="Method"/>
+                        <Access Is="Protected"/>
+                    </And>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Public Methods">
+            <Entry DisplayName="Protected Methods">
+                <Entry.Match>
+                    <And>
+                        <Not>
+                            <unity:EventFunction/>
+                        </Not>
+                        <Kind Is="Method"/>
+                        <Access Is="Public"/>
+                    </And>
+                </Entry.Match>
+
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+    </TypePattern>
+</Patterns>

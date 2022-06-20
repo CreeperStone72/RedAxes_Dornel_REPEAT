@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{73d2a111-fc09-4913-8560-604098c360d2}">
+		<property name="name">
+			<value>ShopOrUpgrade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1271c926-24fa-48cf-b6e3-f20a96d8ccd0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{848657bb-f4c4-4c7f-84f5-0431072b7c92}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{848657bb-f4c4-4c7f-84f5-0431072b7c92}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

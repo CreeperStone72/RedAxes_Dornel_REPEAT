@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8fda743b539a043b220ae6e99779c2, type: 3}
+  m_Name: LowPolyTrees
+  m_EditorClassIdentifier: 
+  prototypes:
+  - prefab: {fileID: 124706, guid: 4310e6b6172f30c4f9a910da2426b73d, type: 3}
+    sharedMesh: {fileID: 4300000, guid: a1e4550a8f6c1aa4a9905f93d3f9b663, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_01.prefab
+  - prefab: {fileID: 122440, guid: a1285dcec306e4b46b86a4de02e82dc3, type: 3}
+    sharedMesh: {fileID: 4300000, guid: bbdc51128f8d8d24098fe51b635677ee, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_02.prefab
+  - prefab: {fileID: 164680, guid: df652331f44fd4047a9ef4257363f54f, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 6029fe0efc7b9c1498623be3e1b1be49, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_03.prefab
+  - prefab: {fileID: 118358, guid: 1949e2bdfe6d0f84f8667c9cf897afd4, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 59b32f79df9442841b100e4de1aa9dcf, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_04.prefab
+  - prefab: {fileID: 131676, guid: dc8abbde9bfef474dba2c380c1e55963, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 2c29ba89c7857844db5470925428f560, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_05.prefab
+  - prefab: {fileID: 142174, guid: ae1533f58ee9d4b40a3835689975d29a, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 105de25b0600b0a4cb044b8f0140fc49, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_06.prefab
+  - prefab: {fileID: 186874, guid: ca3c7e571661e4144be5493fbc60639d, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 6a79571c1013eb14981184889a1f096c, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 883290f628583294eb26603bdaf80622, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 17
+    keepPrefabLayer: 1
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: Assets/Red Axes/Features/Levels/Terrain/TreePrefabs/Pine_Snow_07.prefab

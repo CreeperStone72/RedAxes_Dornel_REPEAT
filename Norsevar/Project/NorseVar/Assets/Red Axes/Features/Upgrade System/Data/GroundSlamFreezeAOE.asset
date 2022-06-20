@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eebd3599159a45bd85f805f38e00319, type: 3}
+  m_Name: GroundSlamFreezeAOE
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: Ground Slam Freeze
+  description: The Ground Slam Attack freezes nearby enemies.
+  isUnique: 1
+  uiIcon: {fileID: 0}
+  playstyleModifiersToApply:
+  - {fileID: 6352847125614157402, guid: 2af5ddc7f71444035921bbd2df377952, type: 3}
+  statModifiers:
+    keyData: 
+    valueData: []

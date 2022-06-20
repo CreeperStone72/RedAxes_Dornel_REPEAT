@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Button text="Button" display-tooltip-when-elided="true" name="Custom-Button"
+               style="-unity-text-align: middle-center; font-size: 30px; flex-grow: 1; width: 100%;"/>
+</ui:UXML>

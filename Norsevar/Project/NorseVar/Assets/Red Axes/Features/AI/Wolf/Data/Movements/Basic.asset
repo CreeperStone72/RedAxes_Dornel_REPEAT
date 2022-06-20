@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 822b0c2aca3e6b84aae7c929fbb0df41, type: 3}
+  m_Name: Basic
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  aggressionRange: 15
+  huntData:
+    speedMultiplier: 6
+  attackData:
+    speedMultiplier: 8
+    distanceFromTarget: 2
+    minWait: 1
+    maxWait: 10
+  surroundData:
+    speedMultiplier: 10
+    distanceFromTarget: 5
+  idleData:
+    speedMultiplier: 1
+    minWait: 2
+    maxWait: 10
+    radiusWander: 3
+  retreatData:
+    speedMultiplier: 6
+    distance: 3

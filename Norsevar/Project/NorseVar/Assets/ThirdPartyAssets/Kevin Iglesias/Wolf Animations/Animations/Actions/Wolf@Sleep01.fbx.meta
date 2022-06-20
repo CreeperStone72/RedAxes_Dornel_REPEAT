@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: b2fe1ca6f874e7341bf6e589855460c7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: B-ear_L
+    100002: B-ear_R
+    100004: B-eyelid_L
+    100006: B-eyelid_R
+    100008: B-foreArm_L
+    100010: B-foreArm_R
+    100012: B-forePaw_L
+    100014: B-forePaw_R
+    100016: B-foreToe01_L
+    100018: B-foreToe01_R
+    100020: B-foreToe02_L
+    100022: B-foreToe02_R
+    100024: B-foreToe03_L
+    100026: B-foreToe03_R
+    100028: B-foreWrist_L
+    100030: B-foreWrist_R
+    100032: B-head
+    100034: B-hindPaw_L
+    100036: B-hindPaw_R
+    100038: B-hindToe01_L
+    100040: B-hindToe01_R
+    100042: B-hindToe02_L
+    100044: B-hindToe02_R
+    100046: B-hindToe03_L
+    100048: B-hindToe03_R
+    100050: B-hips
+    100052: B-jaw
+    100054: B-neck
+    100056: B-shin01_L
+    100058: B-shin01_R
+    100060: B-shin02_L
+    100062: B-shin02_R
+    100064: B-shoulder_L
+    100066: B-shoulder_R
+    100068: B-spine01
+    100070: B-spine02
+    100072: B-spine03
+    100074: B-tail01
+    100076: B-tail02
+    100078: B-tail03
+    100080: B-tail04
+    100082: B-tail05
+    100084: B-thigh01_L
+    100086: B-thigh01_R
+    100088: B-upperArm_L
+    100090: B-upperArm_R
+    100092: root
+    100094: //RootNode
+    100096: WolfPolyRig
+    400000: B-ear_L
+    400002: B-ear_R
+    400004: B-eyelid_L
+    400006: B-eyelid_R
+    400008: B-foreArm_L
+    400010: B-foreArm_R
+    400012: B-forePaw_L
+    400014: B-forePaw_R
+    400016: B-foreToe01_L
+    400018: B-foreToe01_R
+    400020: B-foreToe02_L
+    400022: B-foreToe02_R
+    400024: B-foreToe03_L
+    400026: B-foreToe03_R
+    400028: B-foreWrist_L
+    400030: B-foreWrist_R
+    400032: B-head
+    400034: B-hindPaw_L
+    400036: B-hindPaw_R
+    400038: B-hindToe01_L
+    400040: B-hindToe01_R
+    400042: B-hindToe02_L
+    400044: B-hindToe02_R
+    400046: B-hindToe03_L
+    400048: B-hindToe03_R
+    400050: B-hips
+    400052: B-jaw
+    400054: B-neck
+    400056: B-shin01_L
+    400058: B-shin01_R
+    400060: B-shin02_L
+    400062: B-shin02_R
+    400064: B-shoulder_L
+    400066: B-shoulder_R
+    400068: B-spine01
+    400070: B-spine02
+    400072: B-spine03
+    400074: B-tail01
+    400076: B-tail02
+    400078: B-tail03
+    400080: B-tail04
+    400082: B-tail05
+    400084: B-thigh01_L
+    400086: B-thigh01_R
+    400088: B-upperArm_L
+    400090: B-upperArm_R
+    400092: root
+    400094: //RootNode
+    400096: WolfPolyRig
+    7400000: Wolf@Sleep01
+    7400002: Wolf@Sleep01 - Down
+    7400004: Wolf@Sleep01 - Up
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Wolf@Sleep01
+      takeName: Wolf@Sleep01
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf@Sleep01 - Down
+      takeName: Wolf@Sleep01 - Down
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wolf@Sleep01 - Up
+      takeName: Wolf@Sleep01 - Up
+      firstFrame: 0
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c314df904b4f36a4a96c55303bbbec6f,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

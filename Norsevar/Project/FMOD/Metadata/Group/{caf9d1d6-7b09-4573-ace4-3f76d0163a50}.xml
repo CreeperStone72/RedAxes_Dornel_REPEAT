@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{caf9d1d6-7b09-4573-ace4-3f76d0163a50}">
+		<property name="volume">
+			<value>-20</value>
+		</property>
+		<property name="name">
+			<value>ChargeWolf</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{0c95effd-fa3f-4308-8323-547fb668ee96}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{4eed7b69-ebe3-4fe7-9762-5fa736509469}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{8bd471de-35c3-4024-a5a1-c76de8d6ac3d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{0c95effd-fa3f-4308-8323-547fb668ee96}">
+		<relationship name="effects">
+			<destination>{e14a6332-e77c-468f-bcc8-7d420fbc2f4d}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{4eed7b69-ebe3-4fe7-9762-5fa736509469}" />
+	<object class="MixerBusFader" id="{e14a6332-e77c-468f-bcc8-7d420fbc2f4d}" />
+</objects>

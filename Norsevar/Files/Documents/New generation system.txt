@@ -1,0 +1,50 @@
+Let's create an x-axis for our depth, with 0 marking the root of our tree, and the starting room type
+
++--------------------------------------------------------------> depth
+0
+
+A room type can appear within a certain range on that depth
+
++-----|=============|------------------------------------------> depth
+0     6             20
+
+Let's call those parameters a and b
+
++-----|=============|------------------------------------------> depth
+0     a             b
+
+The first rule already clearly appears :
+	(1) Direct order : 0 < a <= b
+
+Let's now specify the weight of a room. It can be defined as a function which varies depending on the depth
+
+	weight <=> f(x)
+
+Now, if the depth hasn't reached a yet, it cannot appear, its weight is therefore 0
+
+	       { x <  a => 0
+	f(x) = { x >= a => ...
+
+Similarly, if the depth exceeds b, it cannot appear anymore
+
+	       { x <  a    => 0
+	f(x) = { x € [a;b] => ...
+	       { x >    b  => 0
+
+When the depth is between a and b, several things could happen.
+
+The first one, which is the simplest, is that the weight is simply set to a constant, let's call it W.
+When plotting f(x), it then looks like a rectangular wave.
+
+weight
+  A
+  |
+  |
+W #     ##############
+  |     #            #
+  |     #            #
+  |     #            #
+0 +######------------##########################################> depth
+  0     a            b
+
+In this situation, whether the room is picked or not doesn't influence the weight	

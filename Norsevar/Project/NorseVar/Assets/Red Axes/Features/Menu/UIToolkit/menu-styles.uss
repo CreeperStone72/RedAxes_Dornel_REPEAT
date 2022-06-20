@@ -1,0 +1,33 @@
+.menu-button {
+    font-size: 52px;
+    -unity-text-align: upper-right;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 0;
+    padding-left: 5%;
+    color: rgb(231, 231, 231);
+    margin: 5px 0;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    -unity-font: url('project://database/Assets/Viking.ttf?fileID=12800000&guid=c16ed2675e97b5d4bbd2c2c39a7a4dd0&type=3#Viking');
+    -unity-font-definition: url('project://database/Assets/Viking%20SDF.asset?fileID=11400000&guid=0ec7002a3752b404788e7b82b94ca6a8&type=2#Viking SDF');
+}
+
+.menu-button:focus {
+    background-image: url('project://database/Assets/ThirdPartyAssets/Hovl%20Studio/RPG%20VFX%20Bundle/Textures/Gradient3.png?fileID=2800000&guid=b954a276cc04135469618f6338147329&type=3#Gradient3');
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    color: rgb(231, 231, 231);
+}
+
+.menu-button:hover {
+    background-image: url('project://database/Assets/ThirdPartyAssets/Hovl%20Studio/RPG%20VFX%20Bundle/Textures/Gradient14.png?fileID=2800000&guid=e841d5ab4e2f31945b79eee62b51064a&type=3#Gradient14');
+    -unity-background-image-tint-color: rgb(121, 119, 115);
+    color: rgb(231, 231, 231);
+}
+
+.menu-button:active {
+    scale: 1.1 1.1;
+    color: rgb(231, 231, 231);
+}

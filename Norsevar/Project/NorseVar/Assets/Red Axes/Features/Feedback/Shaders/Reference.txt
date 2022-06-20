@@ -1,0 +1,1 @@
+This thread helped me: https://forum.unity.com/threads/emission-color-over-time-for-particle-systems.688468/

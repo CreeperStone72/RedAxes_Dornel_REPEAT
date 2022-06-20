@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28ec4621db24162b921056facf2d22d, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  name: Player Stat Collection
+  description: Contains all the player's Stats
+  attribute:
+    keyData: 050000000600000007000000080000000c0000000d000000
+    valueData:
+    - {fileID: 11400000, guid: b58ca6edda72f46368347f882dd1a3a2, type: 2}
+    - {fileID: 11400000, guid: ccf8dba5fdbef4f2b80bc328970ec2d2, type: 2}
+    - {fileID: 11400000, guid: 76022178a26c74fe8a3e528f6fcc0e66, type: 2}
+    - {fileID: 11400000, guid: bd6e84cb6a218437890f00daaabb9d17, type: 2}
+    - {fileID: 11400000, guid: abb51bee771794c2ea8e1633ad2638c7, type: 2}
+    - {fileID: 11400000, guid: ec1bd1ed8320640bd97ed1cdb86685fd, type: 2}
+  resource:
+    keyData: 0100000003000000
+    valueData:
+    - {fileID: 11400000, guid: df842cc4f044d44328cf88be1a6f0c2c, type: 2}
+    - {fileID: 11400000, guid: a7d2ac251ae2640c3a621c2f1a8feaf8, type: 2}

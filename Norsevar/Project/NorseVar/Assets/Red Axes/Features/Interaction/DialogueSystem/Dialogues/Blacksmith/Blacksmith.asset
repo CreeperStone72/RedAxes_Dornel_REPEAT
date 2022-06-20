@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c14696a49a42eeb34e405a61b78dce, type: 3}
+  m_Name: Blacksmith
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  fileName: Blacksmith
+  type: 1
+  startNode: 1
+  dialogueGroups:
+    m_Keys: []
+  ungroupedDialogues:
+  - {fileID: 11400000, guid: 178003089e7f7d942b8605987eb0e14c, type: 2}
+  - {fileID: 11400000, guid: 025f258b9c1c7b148a2002bfac392bbf, type: 2}
+  - {fileID: 11400000, guid: 34335f62093f792429bfed0f45d8c2d1, type: 2}
+  - {fileID: 11400000, guid: e752058db22652e44b1f446d2d9fd0b0, type: 2}
+  selectedGroup: {fileID: 0}
+  selectedDialogue: {fileID: 11400000, guid: 178003089e7f7d942b8605987eb0e14c, type: 2}
