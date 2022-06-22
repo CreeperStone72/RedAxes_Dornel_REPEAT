@@ -27,6 +27,7 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Must be a sign
+  playerSayText: Beware, avalanches... Least of my problems, I need to get to the
+    village.
   startDialogue: 0
   dialogueId: SignConversation

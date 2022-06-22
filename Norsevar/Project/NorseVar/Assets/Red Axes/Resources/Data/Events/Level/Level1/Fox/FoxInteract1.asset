@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Want me to follow you?
+  playerSayText: Hm ?
   startDialogue: 0
   dialogueId: 

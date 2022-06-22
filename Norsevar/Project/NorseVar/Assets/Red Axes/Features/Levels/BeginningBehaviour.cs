@@ -17,7 +17,7 @@ namespace Norsevar
             if (!pickedUpOnce) pickedUpOnce = true;
             else
             {
-                NorseGame.Instance.Get<PlayerSayerBehaviour>().Say("Now i'm prepared to go!");
+                NorseGame.Instance.Get<PlayerSayerBehaviour>().Say("Now I can return to the village.");
                 NorseGame.Instance.UnregisterAction(ENorseGameEvent.Player_EquipWeapon, OnPickup);
                 NorseGame.Instance.UnregisterAction(ENorseGameEvent.Player_EquipShield, OnPickup);
                 gameObject.SetActive(false);

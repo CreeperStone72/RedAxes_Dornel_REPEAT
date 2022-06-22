@@ -27,6 +27,7 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: I'd be up for another Raid...
+  playerSayText: "They don\u2019t seem to have run to the seas. Sailing blue in the
+    barren waves\u2026"
   startDialogue: 0
   dialogueId: 

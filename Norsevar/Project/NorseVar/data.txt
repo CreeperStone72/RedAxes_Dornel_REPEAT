@@ -1,4 +1,4 @@
-28/04/2022 16:00:09
+22/06/2022 16:17:57
 Norsevar
 
 ----------Rooms Encountered----------
@@ -8,22 +8,22 @@ Upgrade rooms encountered: 0
 Rooms cleared: 0
 
 ---------------Attacks---------------
-Ground slams used: 20
-Dashes used: 34
-Enemies killed: 10
+Ground slams used: 1
+Dashes used: 51
+Enemies killed: 0
 Charge attack used: 0
-Attack used: 19
-Crit made: 3
-Max damage made: 82.5
+Attack used: 24
+Crit made: 1
+Max damage made: 24
 
 ---------------Player----------------
 Death count: 0
-Poisoned count: 4
-Upgrades collected: 3
+Poisoned count: 0
+Upgrades collected: 0
 Money collected: 0
 
 ----------------Game----------------
-Rounds played: 0
+Rounds played: 4
 Avg time per fight: NaN
 
 ----------------Extra---------------

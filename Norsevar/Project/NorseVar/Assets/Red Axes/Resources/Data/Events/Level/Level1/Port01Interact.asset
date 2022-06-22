@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: I can see the village from here
+  playerSayText: That's odd, I can see no smoke.
   startDialogue: 0
   dialogueId: 

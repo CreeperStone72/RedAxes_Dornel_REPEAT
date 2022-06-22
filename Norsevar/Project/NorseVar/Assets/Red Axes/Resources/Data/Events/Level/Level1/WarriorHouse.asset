@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Looks like the Warrior's House
+  playerSayText: "The Chief\u2019s not here either\u2026 Evil must be afoot\u2026"
   startDialogue: 0
   dialogueId: 

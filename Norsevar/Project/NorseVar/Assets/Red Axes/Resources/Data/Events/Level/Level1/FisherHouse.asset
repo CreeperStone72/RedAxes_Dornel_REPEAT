@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Looks like the Fisher's House
+  playerSayText: Nobody here either... As fresh as usual though...
   startDialogue: 0
   dialogueId: 

@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Cozy
+  playerSayText: Still burning. They must be around here somewhere...
   startDialogue: 0
   dialogueId: 

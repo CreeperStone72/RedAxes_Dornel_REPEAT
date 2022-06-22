@@ -27,6 +27,7 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: I could use a better weapon!
+  playerSayText: "Gunvor\u2019s not hammering away\u2026 Now something is definitely
+    wrong."
   startDialogue: 0
   dialogueId: 

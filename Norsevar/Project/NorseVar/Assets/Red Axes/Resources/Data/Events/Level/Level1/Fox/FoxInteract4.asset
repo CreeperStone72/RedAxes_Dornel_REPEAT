@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Where are you leading me?
+  playerSayText: "Heh, brave and reckless it is\u2026 Wait, what\u2019s that ?"
   startDialogue: 0
   dialogueId: 

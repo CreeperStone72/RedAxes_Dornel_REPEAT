@@ -27,6 +27,7 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Who performs these Rituals?
+  playerSayText: "Hmm\u2026 What in Hel is that ritual ? I\u2019ll have to ask the
+    sei\xF0ma\xF0r when I get back to the village."
   startDialogue: 0
   dialogueId: 

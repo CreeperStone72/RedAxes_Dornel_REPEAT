@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Here's their Law Rock
+  playerSayText: It's too quiet...
   startDialogue: 0
   dialogueId: 

@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: I should not leave without my Axe and Shield!
+  playerSayText: Can't leave my gear there !
   startDialogue: 0
   dialogueId: 

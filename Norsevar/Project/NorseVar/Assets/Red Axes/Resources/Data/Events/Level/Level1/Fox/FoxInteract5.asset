@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Dont leave me!!
+  playerSayText: Oh no, you're not leaving in the forest before I get answers.
   startDialogue: 0
   dialogueId: 
