@@ -152,11 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07456c3ff6e0964ca1d6565d945ec37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x: 0
-  y: 0
+  x: 3
+  y: 2
+  l: 4
   w: 5
-  h: 3
-  t: 0
 --- !u!4 &93795577
 Transform:
   m_ObjectHideFlags: 0
@@ -170,6 +169,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &426510829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 426510831}
+  - component: {fileID: 426510830}
+  m_Layer: 0
+  m_Name: ProceduralLayoutGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &426510830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426510829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51581709254442ed830b77d5709e00f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  standaloneRun: 1
+  rangeL: {x: 5, y: 15}
+  rangeW: {x: 5, y: 15}
+  rangeX: {x: 0, y: 10}
+  rangeY: {x: 3, y: 10}
+  chromosomesInPopulation: 10
+  roomsInChromosome: 5
+  crossoverProbability: 0.5
+  mutationProbability: 0.1
+  fitnessFunction: 2
+  iterations: 30
+--- !u!4 &426510831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426510829}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569129642
 GameObject:
@@ -187,7 +240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &569129643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,38 +253,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca650692ab3e5c4c8e2565060364200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadGlobalMesh: 1
   chromosome:
     rooms:
-    - x: 8
-      y: 11
-      l: 6
-      w: 4
-      t: 1
-    - x: 4
-      y: 14
-      l: 7
-      w: 6
-      t: 0
-    - x: 5
-      y: 9
-      l: 11
-      w: 8
-      t: 0
-    - x: 9
-      y: 7
+    - x: 6
+      y: -8
       l: 9
-      w: 7
-      t: 1
-    - x: 4
-      y: 14
-      l: 4
-      w: 3
-      t: 0
-    - x: 5
-      y: 5
-      l: 7
-      w: 5
-      t: 0
+      w: 4
+    - x: 8
+      y: 3
+      l: 6
+      w: 8
+    - x: -9
+      y: -6
+      l: 1
+      w: 8
+    - x: -3
+      y: -8
+      l: 3
+      w: 6
+    - x: 3
+      y: -3
+      l: 9
+      w: 8
 --- !u!4 &569129644
 Transform:
   m_ObjectHideFlags: 0
@@ -323,13 +367,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1765499055}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1765499059
 MonoBehaviour:
   m_ObjectHideFlags: 0
