@@ -52,9 +52,9 @@ namespace ProceduralTerrainGeneration {
         }
 
         private void DrawMesh(MeshData meshData) {
-            meshFilter.sharedMesh = meshData.CreateMesh();
             textureRenderer.gameObject.SetActive(false);
             meshFilter.gameObject.SetActive(true);
+            meshFilter.sharedMesh = meshData.CreateMesh();
         }
 
         private void OnValuesUpdated() { if (!Application.isPlaying) DrawMapInEditor(); }

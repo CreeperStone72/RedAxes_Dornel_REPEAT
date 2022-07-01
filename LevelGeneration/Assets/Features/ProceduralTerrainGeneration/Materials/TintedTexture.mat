@@ -108,20 +108,20 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - BlendStrength1: 0
-    - BlendStrength2: 0
-    - BlendStrength3: 0
-    - BlendStrength4: 0
-    - BlendStrength5: 0
-    - BlendStrength6: 0
-    - BlendStrength7: 0
+    - BlendStrength1: 1
+    - BlendStrength2: 1
+    - BlendStrength3: 0.83
+    - BlendStrength4: 0.835
+    - BlendStrength5: 1
+    - BlendStrength6: 1
+    - BlendStrength7: 1
     - BlendStrength8: 0
     - Heigh3: 0
     - Height1: 0
     - Height2: 2.8999999
     - Height4: 4.676
     - Height5: 6.7000003
-    - Height6: 14.6934
+    - Height6: 16.2
     - Height7: 50
     - Height8: 0
     - TextureScale1: 0
@@ -132,13 +132,13 @@ Material:
     - TextureScale6: 0
     - TextureScale7: 0
     - TextureScale8: 0
-    - TintStrength1: 0
-    - TintStrength2: 0
-    - TintStrength3: 0
-    - TintStrength4: 0
-    - TintStrength5: 0
-    - TintStrength6: 0
-    - TintStrength7: 0
+    - TintStrength1: 1
+    - TintStrength2: 0.73
+    - TintStrength3: 1
+    - TintStrength4: 1
+    - TintStrength5: 1
+    - TintStrength6: 0.637
+    - TintStrength7: 0.662
     - TintStrength8: 0
     - _AlphaClip: 0
     - _Blend: 0
@@ -167,13 +167,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Tint1: {r: 0, g: 0, b: 0, a: 0}
-    - Tint2: {r: 0, g: 0, b: 0, a: 0}
-    - Tint3: {r: 0, g: 0, b: 0, a: 0}
-    - Tint4: {r: 0, g: 0, b: 0, a: 0}
-    - Tint5: {r: 0, g: 0, b: 0, a: 0}
-    - Tint6: {r: 0, g: 0, b: 0, a: 0}
-    - Tint7: {r: 0, g: 0, b: 0, a: 0}
+    - Tint1: {r: 0.03270737, g: 0.06614471, b: 0.3301887, a: 0}
+    - Tint2: {r: 0.2978373, g: 0.37093353, b: 0.9150943, a: 0}
+    - Tint3: {r: 0.6320754, g: 0.57735395, b: 0.22957455, a: 0}
+    - Tint4: {r: 0.014017441, g: 0.5943396, b: 0.09095091, a: 0}
+    - Tint5: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0}
+    - Tint6: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
+    - Tint7: {r: 1, g: 1, b: 1, a: 0}
     - Tint8: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
