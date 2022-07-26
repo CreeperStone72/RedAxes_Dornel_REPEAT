@@ -12,14 +12,14 @@ namespace PoissonDiscSampling {
             var spawnPoints = new List<Vector2> { sampleRegionSize / 2 };
 
             while (spawnPoints.Count > 0) {
-                var spawnIndex = Random.Range(0, spawnPoints.Count);
+                var spawnIndex = RandUtils.RandInt(0, spawnPoints.Count);
                 var spawnCentre = spawnPoints[spawnIndex];
                 var candidateAccepted = false;
 
                 for (var i = 0; i < numSamplesBeforeRejection; i++) {
                     var angle = MathUtils.RandomAngle;
                     var dir = MathUtils.AngleToDir(angle);
-                    var candidate = spawnCentre + dir * Random.Range(radius, 2 * radius);
+                    var candidate = spawnCentre + dir * RandUtils.Rand(radius, 2 * radius);
 
                     if (!IsValid(candidate, sampleRegionSize, cellSize, radius, points, grid)) continue;
                     

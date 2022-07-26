@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using ProceduralTerrainGeneration.Data;
-using UnityEngine;
-
-namespace PoissonDiscSampling {
+﻿namespace PoissonDiscSampling {
+    using DataTypes;
+    using System.Collections.Generic;
+    using UnityEngine;
+    
     [CreateAssetMenu(menuName = "Norsevar/Poisson Disc Sampling/Sampling Settings")]
     public class SamplingSettings : UpdatableData {
         public float radius = 1f;
@@ -15,6 +15,8 @@ namespace PoissonDiscSampling {
             for (var i = 0; i < points.Count; i++) points[i] -= regionSize / 2 - regionCentre;
             return points;
         }
+
+        public Vector2 Origin => regionCentre - regionSize / 2;
 
         #if UNITY_EDITOR
         

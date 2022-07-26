@@ -1,11 +1,11 @@
-using System;
-using ProceduralTerrainGeneration.Data;
-
 namespace PoissonDiscSampling {
+    using DataTypes;
+    using System;
     using System.Collections.Generic;
     using UnityEngine;
 
-    public class Test : MonoBehaviour {
+    // ReSharper disable once InconsistentNaming
+    public class PDS_Test : MonoBehaviour {
         public SamplingSettings samplingSettings;
         public float displayRadius = 1f;
 
