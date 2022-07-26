@@ -1,4 +1,5 @@
 ﻿namespace ProceduralTerrainGeneration.Data {
+    using DataTypes;
     using UnityEngine;
     
     [CreateAssetMenu(menuName = "Norsevar/Procedural Terrain Generation/Height Map Settings")]

@@ -1,5 +1,6 @@
 namespace ProceduralTerrainGeneration {
     using Data;
+    using DataTypes;
     using Generators;
     using System;
     using UnityEngine;

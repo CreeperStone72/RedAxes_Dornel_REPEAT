@@ -1,4 +1,4 @@
-﻿using ProceduralTerrainGeneration.Data;
+﻿using DataTypes;
 using UnityEditor;
 using UnityEngine;
 

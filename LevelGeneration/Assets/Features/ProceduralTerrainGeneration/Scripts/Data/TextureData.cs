@@ -1,4 +1,5 @@
 ﻿namespace ProceduralTerrainGeneration.Data {
+    using DataTypes;
     using System;
     using UnityEngine;
     
