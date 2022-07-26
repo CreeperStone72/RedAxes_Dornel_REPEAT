@@ -1,14 +1,11 @@
-﻿using UnityEngine;
-
-namespace DataTypes
-{
-    public class Square
-    {
+﻿namespace DataTypes {
+    using UnityEngine;
+    
+    public class MeshSquare {
         private readonly int _a, _b, _c, _d;
         private readonly Vector3 _vA, _vB, _vC, _vD;
 
-        public Square(int a, int b, int c, int d, Vector3[] vertices)
-        {
+        public MeshSquare(int a, int b, int c, int d, Vector3[] vertices) {
             _a = a;
             _b = b;
             _c = c;

@@ -1,9 +1,8 @@
-using System;
-using UnityEngine;
-using Utility;
-
-namespace ProceduralLevelGeneration.Room
-{
+namespace ProceduralLevelGeneration.Data {
+    using System;
+    using UnityEngine;
+    using Utility;
+    
     /// <summary>
     /// Data representation of a room as a five-tuple
     /// SOURCE : J. A. Brown, B. Lutfullin and P. Oreshin,
@@ -13,8 +12,7 @@ namespace ProceduralLevelGeneration.Room
     /// LAST ACCESSED : 24/06
     /// </summary>
     [Serializable]
-    public class Room
-    {
+    public class Room {
         /// <summary>Starting x-coordinate of a room</summary>
         public int x;
         
@@ -27,8 +25,7 @@ namespace ProceduralLevelGeneration.Room
         /// <summary>Width of the room</summary>
         public int w;
         
-        public Room(int x, int y, int l, int w)
-        {
+        public Room(int x, int y, int l, int w) {
             this.x = x;
             this.y = y;
             this.l = l;
