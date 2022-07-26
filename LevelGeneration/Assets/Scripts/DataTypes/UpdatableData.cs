@@ -1,4 +1,4 @@
-namespace ProceduralTerrainGeneration.Data {
+namespace DataTypes {
     using UnityEngine;
 
     public class UpdatableData : ScriptableObject {
