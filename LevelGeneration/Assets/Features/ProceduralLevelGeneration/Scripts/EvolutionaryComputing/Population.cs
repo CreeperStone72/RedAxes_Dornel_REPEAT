@@ -1,14 +1,10 @@
-﻿using System.Linq;
-using DataTypes;
-using UnityEngine;
-
-namespace ProceduralLevelGeneration.EvolutionaryComputing
-{
-    using Chromosome;
-    using Room;
+﻿namespace ProceduralLevelGeneration.EvolutionaryComputing {
+    using Data;
+    using DataTypes;
+    using System.Linq;
+    using UnityEngine;
     
-    public class Population
-    {
+    public class Population {
         public delegate float Fitness(Chromosome chromosome);
 
         public int evolutionLevel;
@@ -19,8 +15,7 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
 
         private readonly Chromosome[] _chromosomes;
 
-        public Population(int populationSize, int geneCount, Room.Mutate mutate, Fitness fitnessFunction)
-        {
+        public Population(int populationSize, int geneCount, Room.Mutate mutate, Fitness fitnessFunction) {
             evolutionLevel = 0;
             _chromosomes = new Chromosome[populationSize];
             _fitnessFunction = fitnessFunction;
@@ -28,15 +23,13 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
             PopulateChromosomes(geneCount);
         }
 
-        public int Evolve(float crossoverProbability, float mutationProbability)
-        {
+        public int Evolve(float crossoverProbability, float mutationProbability) {
             var fittest = FindFittest();
             CreateNewGeneration(fittest, crossoverProbability, mutationProbability);
             return evolutionLevel;
         }
 
-        public Mesh BestLayout()
-        {
+        public Mesh BestLayout() {
             var fittest = FindFittest().first;
             Debug.Log($"Best level with a surface area of {fittest.Area()} :\n{fittest}");
             return fittest.ToMesh();
@@ -46,8 +39,7 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
 
         private void PopulateChromosomes(int geneCount) { for (var i = 0; i < _chromosomes.Length; i++) { _chromosomes[i] = PopulateChromosome(geneCount); } }
 
-        private Chromosome PopulateChromosome(int geneCount)
-        {
+        private Chromosome PopulateChromosome(int geneCount) {
             var chromosome = new Chromosome();
             for (var index = 0; index < geneCount; index++) { chromosome.Add(_mutate()); }
             return chromosome;
@@ -57,8 +49,7 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
 
         #region Fittest calculation
 
-        private Pair<Chromosome, Chromosome> FindFittest()
-        {
+        private Pair<Chromosome, Chromosome> FindFittest() {
             var fitnessRatings = _chromosomes.Select(GetFitness).ToList();
             var sorted = fitnessRatings.OrderByDescending(v => v.second).ToArray();
             return new Pair<Chromosome, Chromosome>(sorted[0].first, sorted[1].first);
@@ -70,26 +61,21 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
 
         #region Next-gen creation
 
-        private void CreateNewGeneration(Pair<Chromosome, Chromosome> fittest, float crossoverProbability, float mutationProbability)
-        {
+        private void CreateNewGeneration(Pair<Chromosome, Chromosome> fittest, float crossoverProbability, float mutationProbability) {
             Crossover(fittest, crossoverProbability);
             Mutation(mutationProbability);
             evolutionLevel++;
         }
 
-        private void Crossover(Pair<Chromosome, Chromosome> fittest, float crossoverProbability)
-        {
-            for (var index = 0; index < _chromosomes.Length; index++)
-            {
+        private void Crossover(Pair<Chromosome, Chromosome> fittest, float crossoverProbability) {
+            for (var index = 0; index < _chromosomes.Length; index++) {
                 var child = Genetics.Crossover(fittest.first, fittest.second, crossoverProbability);
                 _chromosomes[index] = child;
             }
         }
 
-        private void Mutation(float mutationProbability)
-        {
-            for (var index = 0; index < _chromosomes.Length; index++)
-            {
+        private void Mutation(float mutationProbability) {
+            for (var index = 0; index < _chromosomes.Length; index++) {
                 var mutant = Genetics.Mutation(_chromosomes[index], mutationProbability, _mutate);
                 _chromosomes[index] = mutant;
             }

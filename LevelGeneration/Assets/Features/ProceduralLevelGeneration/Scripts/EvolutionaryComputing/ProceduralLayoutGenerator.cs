@@ -1,20 +1,16 @@
-﻿using System;
-using UnityEngine;
-using Random = UnityEngine.Random;
+﻿namespace ProceduralLevelGeneration.EvolutionaryComputing {
+    using Data;
+    using System;
+    using UnityEngine;
+    using Utility;
 
-namespace ProceduralLevelGeneration.EvolutionaryComputing
-{
-    using Room;
-    
-    public enum EFitness
-    {
+    public enum EFitness {
         MaximizeArea,
         MinimizeArea,
         CorridorPenalty,
     }
     
-    public class ProceduralLayoutGenerator : MonoBehaviour
-    {
+    public class ProceduralLayoutGenerator : MonoBehaviour {
         public bool standaloneRun;
         
         [Header("Room settings")]
@@ -43,19 +39,16 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
 
         private Population _population;
 
-        private void Start()
-        {
+        private void Start() {
             _population = new Population(chromosomesInPopulation, roomsInChromosome, Mutate, GetFunction());
 
-            if (standaloneRun)
-            {
+            if (standaloneRun) {
                 var gob = new GameObject("Level layout", typeof(MeshFilter), typeof(MeshRenderer));
                 gob.GetComponent<MeshFilter>().mesh = Run();
             }
         }
 
-        public Mesh Run()
-        {
+        public Mesh Run() {
             var runtime = Time.realtimeSinceStartup;
             var iterationCount = 0;
             while (iterationCount < iterations) iterationCount = _population.Evolve(crossoverProbability, mutationProbability);
@@ -65,8 +58,7 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
 
         private Room Mutate() { return new Room(RandInt(rangeX), RandInt(rangeY), RandInt(rangeL), RandInt(rangeW)); }
 
-        private Population.Fitness GetFunction()
-        {
+        private Population.Fitness GetFunction() {
             return fitnessFunction switch
             {
                 EFitness.MaximizeArea => Population.MaximizeArea,
@@ -76,12 +68,9 @@ namespace ProceduralLevelGeneration.EvolutionaryComputing
             };
         }
 
-        private static int RandInt(Vector2Int range) { return RandInt(range.x, range.y); }
-        
-        private static int RandInt(int min, int max) { return Random.Range(min, max); }
+        private static int RandInt(Vector2Int range) { return RandUtils.RandInt(range.x, range.y); }
 
-        private void OnValidate()
-        {
+        private void OnValidate() {
             if (rangeL.x <= 0) rangeL.x = 1;
             if (rangeL.y < rangeL.x) rangeL.y = rangeL.x;
             if (rangeW.x <= 0) rangeW.x = 1;

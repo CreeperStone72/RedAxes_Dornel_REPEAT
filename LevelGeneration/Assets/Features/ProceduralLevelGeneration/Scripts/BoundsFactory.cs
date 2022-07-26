@@ -1,22 +1,18 @@
-﻿using System;
-using ProceduralLevelGeneration.Room;
-using UnityEngine;
-
-namespace Utility
-{
-    public static class BoundsFactory
-    {
+﻿namespace ProceduralLevelGeneration {
+    using Data;
+    using System;
+    using UnityEngine;
+    
+    public static class BoundsFactory {
         public static readonly Bounds Zero = new Bounds(Vector3.zero, Vector3.zero);
 
-        public static Bounds GetBounds(Room room)
-        {
+        public static Bounds GetBounds(Room room) {
             var bounds = new Bounds(Vector3.zero, Vector3.zero);
             bounds.SetMinMax(new Vector3(room.x, 0, room.y), new Vector3(room.x + room.w, 0, room.y + room.l));
             return bounds;
         }
         
-        public static Bounds GetBounds(Vector3 min, Vector3 max)
-        {
+        public static Bounds GetBounds(Vector3 min, Vector3 max) {
             var bounds = Zero;
             bounds.SetMinMax(min, max);
             return bounds;
@@ -24,8 +20,7 @@ namespace Utility
         
         public static float BoundsArea(Bounds b) { return b.size.x * b.size.z; }
 
-        public static Bounds Inter(Bounds b1, Bounds b2)
-        {
+        public static Bounds Inter(Bounds b1, Bounds b2) {
             if (!b1.Intersects(b2)) return Zero;
 
             var min = Vector3.Max(b1.min, b2.min);
@@ -34,8 +29,7 @@ namespace Utility
             return GetBounds(min, max);
         }
         
-        public static bool Borders(Bounds b, Vector3 point)
-        {
+        public static bool Borders(Bounds b, Vector3 point) {
             const float tolerance = 0f;
             
             var x = Math.Abs(point.x - b.min.x) < tolerance || Math.Abs(point.x - b.max.x) < tolerance;

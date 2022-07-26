@@ -1,13 +1,11 @@
-using UnityEngine;
-
-namespace ProceduralLevelGeneration.Room
-{
-    public class RoomGenerator : MonoBehaviour
-    {
+namespace ProceduralLevelGeneration {
+    using Data;
+    using UnityEngine;
+    
+    public class RoomGenerator : MonoBehaviour {
         [SerializeField] private int x, y, l, w;
         
-        private void Start()
-        {
+        private void Start() {
             var room = new Room(x, y, l, w);
 
             var go = new GameObject("Room", typeof(MeshFilter), typeof(MeshRenderer));

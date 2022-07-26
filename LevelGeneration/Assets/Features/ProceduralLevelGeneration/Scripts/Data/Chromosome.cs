@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
-using Utility;
-
-namespace ProceduralLevelGeneration.Chromosome
-{
-    using Room;
+﻿namespace ProceduralLevelGeneration.Data {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using UnityEngine;
     
     [Serializable]
-    public class Chromosome
-    {
+    public class Chromosome {
         public List<Room> rooms;
         private List<Mesh> _meshes;
 
-        public Chromosome()
-        {
+        public Chromosome() {
             rooms = new List<Room>();
             _meshes = new List<Mesh>();
         }
@@ -31,8 +25,7 @@ namespace ProceduralLevelGeneration.Chromosome
         /// LAST ACCESSED : 26/06
         /// </summary>
         /// <returns>The level's area</returns>
-        public float Area()
-        {
+        public float Area() {
             var mesh = ToMesh();
             var triangles = mesh.triangles;
             var vertices = mesh.vertices;
@@ -47,22 +40,20 @@ namespace ProceduralLevelGeneration.Chromosome
                 sum += Vector3.Cross(a, b).magnitude;
             }
 
-            return (float)(sum/2.0);
+            return (float) (sum / 2.0);
         }
 
         public float NarrowCount => rooms.Count(room => room.IsNarrow);
 
         public float TinyCount => rooms.Count(room => room.IsTiny);
 
-        public void Add(Room room)
-        {
+        public void Add(Room room) {
             if (!IntersectsAny(room)) return;
             rooms.Add(room);
             _meshes.Add(room.ToMesh());
         }
 
-        public Mesh ToMesh()
-        {
+        public Mesh ToMesh() {
             RefreshMeshes();
             var lmf = new LevelMeshFactory();
             lmf.SetVertices(_meshes);
@@ -70,12 +61,10 @@ namespace ProceduralLevelGeneration.Chromosome
             return lmf.ToMesh();
         }
 
-        public Bounds GetRectBounds()
-        {
+        public Bounds GetRectBounds() {
             Vector3 min = Vector3.positiveInfinity, max = Vector3.negativeInfinity;
 
-            foreach (var bounds in _meshes.Select(mesh => mesh.bounds))
-            {
+            foreach (var bounds in _meshes.Select(mesh => mesh.bounds)) {
                 min = Vector3.Min(min, bounds.min);
                 max = Vector3.Max(max, bounds.max);
             }
@@ -83,16 +72,14 @@ namespace ProceduralLevelGeneration.Chromosome
             return BoundsFactory.GetBounds(min, max);
         }
 
-        public List<Mesh> ToMeshes()
-        {
+        public List<Mesh> ToMeshes() {
             RefreshMeshes();
             return _meshes;
         }
 
         private bool IntersectsAny(Room room) { return rooms.Count == 0 || rooms.Any(r => r.Intersects(room)); }
 
-        private void RefreshMeshes()
-        {
+        private void RefreshMeshes() {
             var temp = new Room[rooms.Count];
             rooms.CopyTo(temp);
             
