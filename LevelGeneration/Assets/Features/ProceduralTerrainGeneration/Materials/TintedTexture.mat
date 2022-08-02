@@ -20,11 +20,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture1:
-        m_Texture: {fileID: 2800000, guid: eafd0beb9c624d34f812be7d14134c2f, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd4f831376722b54bbadd59ef7c6c744, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2:
-        m_Texture: {fileID: 2800000, guid: f5d1de47f0f760544a5596ceb8cc895f, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd4f831376722b54bbadd59ef7c6c744, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture3:
@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture4:
-        m_Texture: {fileID: 2800000, guid: a51044dfe95257548b466bc35528b878, type: 3}
+        m_Texture: {fileID: 2800000, guid: cd4f831376722b54bbadd59ef7c6c744, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture5:
@@ -108,23 +108,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - BlendStrength1: 1
+    - BlendStrength1: 0
     - BlendStrength2: 1
-    - BlendStrength3: 0.83
-    - BlendStrength4: 0.835
+    - BlendStrength3: 1
+    - BlendStrength4: 1
     - BlendStrength5: 1
     - BlendStrength6: 1
     - BlendStrength7: 1
     - BlendStrength8: 0
     - Heigh3: 0
     - Height1: 0
-    - Height2: 2.8999999
-    - Height4: 4.676
+    - Height2: 3.2002323
+    - Height4: 25.198679
     - Height5: 6.7000003
     - Height6: 16.2
     - Height7: 50
     - Height8: 0
-    - TextureScale1: 0
+    - TextureScale1: 0.5
     - TextureScale2: 0
     - TextureScale3: 0
     - TextureScale4: 0
@@ -132,8 +132,8 @@ Material:
     - TextureScale6: 0
     - TextureScale7: 0
     - TextureScale8: 0
-    - TintStrength1: 1
-    - TintStrength2: 0.73
+    - TintStrength1: 0.752
+    - TintStrength2: 0.329
     - TintStrength3: 1
     - TintStrength4: 1
     - TintStrength5: 1
@@ -167,10 +167,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Tint1: {r: 0.03270737, g: 0.06614471, b: 0.3301887, a: 0}
-    - Tint2: {r: 0.2978373, g: 0.37093353, b: 0.9150943, a: 0}
-    - Tint3: {r: 0.6320754, g: 0.57735395, b: 0.22957455, a: 0}
-    - Tint4: {r: 0.014017441, g: 0.5943396, b: 0.09095091, a: 0}
+    - Tint1: {r: 0.4056604, g: 0.39125183, b: 0.36547706, a: 1}
+    - Tint2: {r: 1, g: 1, b: 1, a: 1}
+    - Tint3: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
+    - Tint4: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
     - Tint5: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 0}
     - Tint6: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
     - Tint7: {r: 1, g: 1, b: 1, a: 0}

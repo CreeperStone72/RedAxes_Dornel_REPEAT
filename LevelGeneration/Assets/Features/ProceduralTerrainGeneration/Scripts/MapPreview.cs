@@ -14,6 +14,7 @@ namespace ProceduralTerrainGeneration {
         public Renderer textureRenderer;
         public MeshFilter meshFilter;
         public MeshRenderer meshRenderer;
+        public MeshCollider meshCollider;
 
         [Space(5)]
         
@@ -55,7 +56,7 @@ namespace ProceduralTerrainGeneration {
         private void DrawMesh(MeshData meshData) {
             textureRenderer.gameObject.SetActive(false);
             meshFilter.gameObject.SetActive(true);
-            meshFilter.sharedMesh = meshData.CreateMesh();
+            meshFilter.sharedMesh = meshCollider.sharedMesh = meshData.CreateMesh();
         }
 
         private void OnValuesUpdated() { if (!Application.isPlaying) DrawMapInEditor(); }
