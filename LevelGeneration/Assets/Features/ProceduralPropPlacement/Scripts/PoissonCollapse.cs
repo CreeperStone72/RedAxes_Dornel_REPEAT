@@ -12,6 +12,8 @@ namespace ProceduralPropPlacement {
 
     [RequireComponent(typeof(RockGenerator), typeof(TreeGenerator))]
     public class PoissonCollapse : MonoBehaviour {
+        public bool standaloneRun;
+        
         public Transform cameraTransform;
 
         public ConstrainedTile skippedTile;
@@ -44,8 +46,10 @@ namespace ProceduralPropPlacement {
         }
 
         private void Start() {
-            CenterCamera();
-            DrawPoints();
+            if (standaloneRun) {
+                CenterCamera();
+                DrawPoints();
+            }
         }
 
         private void CenterCamera() {
@@ -55,7 +59,7 @@ namespace ProceduralPropPlacement {
             cameraTransform.position = position;
         }
 
-        private void DrawPoints() {
+        public void DrawPoints() {
             foreach (var point in _points) {
                 var value = _grid.RandomSetAndCollapse(point);
                 if (value == skippedTile) continue;
@@ -85,6 +89,8 @@ namespace ProceduralPropPlacement {
             prop.name = value.tileType;
             prop.transform.position = propPosition;
             prop.transform.parent = transform;
+            
+            // PDS display with WFC colors instead of actual props
             //prop.transform.localScale = Vector3.one * displayRadius;
             //prop.GetComponent<MeshRenderer>().material.color = value.tileColor;
         }
