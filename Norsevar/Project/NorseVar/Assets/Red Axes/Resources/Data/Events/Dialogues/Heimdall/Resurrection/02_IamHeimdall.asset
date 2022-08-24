@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -2000806536
-      Data2: 1340722805
-      Data3: 649952911
-      Data4: -1337027382
-    Path: event:/SFX/Voicelines/Heimdall/IamHeimdall
+      Data1: 59417475
+      Data2: 1300461356
+      Data3: 1546663049
+      Data4: 953214224
+    Path: event:/SFX/REPEAT/Voicelines/Heimdall/2_IamHeimdall
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: I am Heimdall, the Foreknowing God who keeps watch.
   startDialogue: 0
   dialogueId: 

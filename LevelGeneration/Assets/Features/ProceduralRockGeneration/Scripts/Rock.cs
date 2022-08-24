@@ -16,8 +16,8 @@ namespace ProceduralRockGeneration {
         [HideInInspector] public bool shapeSettingsFoldout;
         [HideInInspector] public bool colorSettingsFoldout;
 
-        private ShapeGenerator _shapeGenerator = new ShapeGenerator();
-        private ColorGenerator _colorGenerator = new ColorGenerator();
+        private readonly ShapeGenerator _shapeGenerator = new ShapeGenerator();
+        private readonly ColorGenerator _colorGenerator = new ColorGenerator();
         
         [SerializeField, HideInInspector] private MeshFilter[] meshFilters;
         private RockFace[] _rockFaces;
@@ -29,9 +29,7 @@ namespace ProceduralRockGeneration {
             if (meshFilters == null || meshFilters.Length == 0) meshFilters = new MeshFilter[6];
             _rockFaces = new RockFace[6];
 
-            Vector3[] directions = {
-                Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back,
-            };
+            Vector3[] directions = { Vector3.up, Vector3.down, Vector3.left, Vector3.right, Vector3.forward, Vector3.back, };
 
             for (var i = 0; i < 6; i++) {
                 if (meshFilters[i] == null) {
@@ -46,7 +44,7 @@ namespace ProceduralRockGeneration {
                 meshFilters[i].GetComponent<MeshRenderer>().sharedMaterial = colorSettings.material;
 
                 _rockFaces[i] = new RockFace(_shapeGenerator, meshFilters[i].sharedMesh, resolution, directions[i]);
-                bool renderFace = faceRenderMask == FaceRenderMask.All || (int) faceRenderMask - 1 == i;
+                var renderFace = faceRenderMask == FaceRenderMask.All || (int) faceRenderMask - 1 == i;
                 meshFilters[i].gameObject.SetActive(renderFace);
             }
         }
@@ -59,37 +57,25 @@ namespace ProceduralRockGeneration {
         }
 
         public void OnShapeSettingsUpdated() {
-            if (autoUpdate) {
-                Initialize();
-                GenerateMesh();
-            }
+            if (!autoUpdate) return;
+            Initialize();
+            GenerateMesh();
         }
 
         public void OnColorSettingsUpdated() {
-            if (autoUpdate) {
-                Initialize();
-                GenerateColors();
-            }
+            if (!autoUpdate) return;
+            Initialize();
+            GenerateColors();
         }
 
         private void GenerateMesh() {
-            for (int i = 0; i < 6; i++) {
-                if (meshFilters[i].gameObject.activeSelf) {
-                    _rockFaces[i].ConstructMesh();
-                }
-            }
-
+            for (var i = 0; i < 6; i++) { if (meshFilters[i].gameObject.activeSelf) _rockFaces[i].ConstructMesh(); }
             _colorGenerator.UpdateElevation(_shapeGenerator.elevationMinMax);
         }
 
         private void GenerateColors() {
             _colorGenerator.UpdateColors();
-            
-            for (int i = 0; i < 6; i++) {
-                if (meshFilters[i].gameObject.activeSelf) {
-                    _rockFaces[i].UpdateUVs(_colorGenerator);
-                }
-            }
+            for (var i = 0; i < 6; i++) { if (meshFilters[i].gameObject.activeSelf) _rockFaces[i].UpdateUVs(_colorGenerator); }
         }
 
         private static Vector3 RandomCenter() {
@@ -99,5 +85,4 @@ namespace ProceduralRockGeneration {
             return new Vector3(x, y, z);
         }
     }
-
 }

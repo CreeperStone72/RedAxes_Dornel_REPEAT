@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 811155135
-      Data2: 1135249702
-      Data3: -1236040818
-      Data4: 92407875
-    Path: event:/SFX/Voicelines/Erik/Resurrection/res_what
+      Data1: -17191425
+      Data2: 1076873460
+      Data3: -894146940
+      Data4: 1339629517
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Dialogues/Resurrection/1_WhatThe
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: What the- Who are you ? Where are you ?
   startDialogue: 0
   dialogueId: 

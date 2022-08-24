@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf31afbdb2f854cbc882f3b1c7c89f, type: 3}
   m_Name: TakeEquipmentFirstSay
   m_EditorClassIdentifier: 
-  sound: 0
+  sound: 1
   fmodEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -123849965
+      Data2: 1266057493
+      Data3: -2061934666
+      Data4: -1136820846
+    Path: event:/SFX/REPEAT/Voicelines/Erik/OnEquipGear/LeaveEmpty
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

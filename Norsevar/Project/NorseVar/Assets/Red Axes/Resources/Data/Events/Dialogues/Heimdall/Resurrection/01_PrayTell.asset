@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -116399381
-      Data2: 1143885780
-      Data3: 1607333051
-      Data4: 601396436
-    Path: event:/SFX/Voicelines/Heimdall/PrayTell
+      Data1: -640514697
+      Data2: 1233761599
+      Data3: 1053524651
+      Data4: 1423944129
+    Path: event:/SFX/REPEAT/Voicelines/Heimdall/1_PrayTell
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Pray tell, are you well ?
   startDialogue: 0
   dialogueId: 

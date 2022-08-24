@@ -11,8 +11,6 @@ namespace ProceduralRockGeneration {
             public bool enabled = true;
             public bool useFirstLayerAsMask;
             public NoiseSettings noiseSettings;
-            
         }
     }
-
 }

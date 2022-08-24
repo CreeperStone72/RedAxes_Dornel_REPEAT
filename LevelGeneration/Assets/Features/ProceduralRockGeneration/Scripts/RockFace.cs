@@ -31,7 +31,7 @@ namespace ProceduralRockGeneration {
                     var percent = new Vector2(x, y) / (_resolution - 1);
                     var pointOnUnitCube = _localUp + (percent.x - .5f) * 2 * _axisA + (percent.y - .5f) * 2 * _axisB;
                     var pointOnUnitSphere = pointOnUnitCube.normalized;
-                    float unscaledElevation = _shapeGenerator.CalculateUnscaledElevation(pointOnUnitSphere);
+                    var unscaledElevation = _shapeGenerator.CalculateUnscaledElevation(pointOnUnitSphere);
                     vertices[i] = pointOnUnitSphere * _shapeGenerator.GetScaledElevation(unscaledElevation);
                     uv[i].y = unscaledElevation;
 
@@ -57,7 +57,7 @@ namespace ProceduralRockGeneration {
         }
 
         public void UpdateUVs(ColorGenerator generator) {
-            Vector2[] uv = _mesh.uv;
+            var uv = _mesh.uv;
             
             for (var y = 0; y < _resolution; y++) {
                 for (var x = 0; x < _resolution; x++) {

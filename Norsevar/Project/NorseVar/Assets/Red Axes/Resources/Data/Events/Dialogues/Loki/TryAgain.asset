@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -175013270
-      Data2: 1169271116
-      Data3: -1551061572
-      Data4: -1884527180
-    Path: event:/SFX/Voicelines/Loki/twink_3
+      Data1: -868348156
+      Data2: 1128695045
+      Data3: -1548103521
+      Data4: -729301272
+    Path: event:/SFX/REPEAT/Voicelines/Loki/PleasureFromFailure
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Try again, I love seeing you fail
   startDialogue: 0
   dialogueId: 

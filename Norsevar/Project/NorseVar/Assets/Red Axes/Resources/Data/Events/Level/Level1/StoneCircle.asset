@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf31afbdb2f854cbc882f3b1c7c89f, type: 3}
   m_Name: StoneCircle
   m_EditorClassIdentifier: 
-  sound: 0
+  sound: 1
   fmodEvent:
     Guid:
-      Data1: 168037225
-      Data2: 1098677709
-      Data3: -950803815
-      Data4: 855218898
-    Path: event:/SFX/Effects/Effect_Bell
+      Data1: -1697654333
+      Data2: 1221943002
+      Data3: 1074919557
+      Data4: -2090718257
+    Path: event:/SFX/REPEAT/Voicelines/Erik/PointOfInterest/Forest/Ritual_1
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
@@ -27,7 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: "Hmm\u2026 What in Hel is that ritual ? I\u2019ll have to ask the
-    sei\xF0ma\xF0r when I get back to the village."
+  playerSayText: "Hmm\u2026 What in Hel is that ritual ?"
   startDialogue: 0
   dialogueId: 

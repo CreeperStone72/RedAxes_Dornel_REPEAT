@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 939093649
-      Data2: 1199312919
-      Data3: -52585074
-      Data4: 23173789
-    Path: event:/SFX/Voicelines/Loki/twink_2
+      Data1: -1202613885
+      Data2: 1130686536
+      Data3: -1361260154
+      Data4: -8543153
+    Path: event:/SFX/REPEAT/Voicelines/Loki/NotImmuneToMagic
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Heimdall's magic won't save you next time, Erik.
   startDialogue: 0
   dialogueId: 

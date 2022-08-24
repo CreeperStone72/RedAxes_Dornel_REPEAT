@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -427088390
-      Data2: 1209352966
-      Data3: -1716283503
-      Data4: 555792103
-    Path: event:/SFX/Voicelines/Heimdall/LokiWontLeave
+      Data1: -729898492
+      Data2: 1289108950
+      Data3: 769739416
+      Data4: 429526074
+    Path: event:/SFX/REPEAT/Voicelines/Heimdall/5_LokiWontLeave
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Loki won't leave until you die or leave the fray.
   startDialogue: 0
   dialogueId: 

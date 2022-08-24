@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 1012169401
-      Data2: 1150416616
-      Data3: 1159187872
-      Data4: -1081557513
-    Path: event:/SFX/Voicelines/Loki/twink_1
+      Data1: 526267573
+      Data2: 1243793634
+      Data3: -1802186346
+      Data4: -1119509238
+    Path: event:/SFX/REPEAT/Voicelines/Loki/PersistentOne
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: You are a persistent one. I love it.
   startDialogue: 0
   dialogueId: 

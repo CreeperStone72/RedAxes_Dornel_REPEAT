@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 921717355
-      Data2: 1316624115
-      Data3: 2128924568
-      Data4: 1216779330
-    Path: event:/SFX/Voicelines/Erik/OnCombatExit/excombat_time
+      Data1: 234654790
+      Data2: 1227359267
+      Data3: -1165652805
+      Data4: -747013237
+    Path: event:/SFX/REPEAT/Voicelines/Erik/OnCombatExit/NoTimeForThis
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

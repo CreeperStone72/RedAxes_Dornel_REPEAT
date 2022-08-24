@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -878881682
-      Data2: 1336099902
-      Data3: -880808309
-      Data4: 670040062
-    Path: event:/SFX/Voicelines/Erik/OnCombatEnter/encombat_wulfing
+      Data1: 224064749
+      Data2: 1139772445
+      Data3: 2042982333
+      Data4: 1956774221
+    Path: event:/SFX/REPEAT/Voicelines/Erik/OnCombatEnter/WulfingWarrior
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

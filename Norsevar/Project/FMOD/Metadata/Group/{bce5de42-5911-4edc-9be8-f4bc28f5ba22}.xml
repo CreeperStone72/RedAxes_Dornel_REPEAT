@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{bce5de42-5911-4edc-9be8-f4bc28f5ba22}">
+		<property name="name">
+			<value>OnCombatExit</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5b90f862-eb34-4b2c-859e-ab43ba54a95b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{13df8fdf-e605-45ae-b6aa-b4d24682b1b7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{3257cf34-2d93-4ea7-a0da-87903bed039f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5b90f862-eb34-4b2c-859e-ab43ba54a95b}">
+		<relationship name="effects">
+			<destination>{b0b373f9-5501-4c3f-aff7-8d8f50538bb4}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{13df8fdf-e605-45ae-b6aa-b4d24682b1b7}" />
+	<object class="MixerBusFader" id="{b0b373f9-5501-4c3f-aff7-8d8f50538bb4}" />
+</objects>

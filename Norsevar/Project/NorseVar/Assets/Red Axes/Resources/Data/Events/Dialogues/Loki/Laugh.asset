@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 1335775256
-      Data2: 1227402861
-      Data3: -1601936252
-      Data4: -842935985
-    Path: event:/SFX/Voicelines/Loki/twink_4
+      Data1: 1721782831
+      Data2: 1149706463
+      Data3: 1306766982
+      Data4: 1466560773
+    Path: event:/SFX/REPEAT/Voicelines/Loki/Laugh
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

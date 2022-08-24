@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 2127917705
-      Data2: 1301299268
-      Data3: -163132262
-      Data4: -256500938
-    Path: event:/SFX/Voicelines/Erik/OnCombatEnter/encombat_tyr
+      Data1: 1155423033
+      Data2: 1320463507
+      Data3: 586615176
+      Data4: -496988622
+    Path: event:/SFX/REPEAT/Voicelines/Erik/OnCombatEnter/Tyr
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

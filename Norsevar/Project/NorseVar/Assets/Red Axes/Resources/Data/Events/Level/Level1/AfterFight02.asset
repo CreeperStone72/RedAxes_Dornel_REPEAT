@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf31afbdb2f854cbc882f3b1c7c89f, type: 3}
   m_Name: AfterFight02
   m_EditorClassIdentifier: 
-  sound: 0
+  sound: 1
   fmodEvent:
     Guid:
-      Data1: 168037225
-      Data2: 1098677709
-      Data3: -950803815
-      Data4: 855218898
-    Path: event:/SFX/Effects/Effect_Bell
+      Data1: 402052661
+      Data2: 1096769098
+      Data3: 1098894223
+      Data4: 1710988665
+    Path: event:/SFX/REPEAT/Voicelines/Erik/PointOfInterest/Mountains/PostFight
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

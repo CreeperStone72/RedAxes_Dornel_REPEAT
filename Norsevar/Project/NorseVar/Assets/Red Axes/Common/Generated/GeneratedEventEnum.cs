@@ -109,5 +109,6 @@ public enum ENorseGameEvent
 	Level_Level1_Fox_FoxInteract3 = 1879986735,
 	Level_Level1_Fox_FoxInteract4 = -857172658,
 	Level_Level1_Fox_FoxInteract5 = -136918592,
+	Dialogues_Erik_FullyEquipped = 378227187,
 }
 }

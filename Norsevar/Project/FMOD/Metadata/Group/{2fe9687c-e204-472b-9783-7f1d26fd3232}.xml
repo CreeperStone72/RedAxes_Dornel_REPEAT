@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{2fe9687c-e204-472b-9783-7f1d26fd3232}">
+		<property name="name">
+			<value>Heimdall</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{71d23703-94fc-4301-895b-03d2db7193ab}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{be70fdd0-75fa-4965-986c-13c36a7966ff}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f10d11e4-c0ef-4deb-bf99-e47fb0ec77d5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{71d23703-94fc-4301-895b-03d2db7193ab}">
+		<relationship name="effects">
+			<destination>{03b35a58-8794-4278-aae5-bb9000f59b1f}</destination>
+			<destination>{bd9000f6-f47f-45f9-99e9-f133da772f47}</destination>
+			<destination>{a77587b8-b43e-444a-8d68-1b98781331ae}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{be70fdd0-75fa-4965-986c-13c36a7966ff}" />
+	<object class="MixerBusFader" id="{03b35a58-8794-4278-aae5-bb9000f59b1f}" />
+	<object class="PitchShifterEffect" id="{bd9000f6-f47f-45f9-99e9-f133da772f47}">
+		<property name="pitch">
+			<value>0.870000005</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{a77587b8-b43e-444a-8d68-1b98781331ae}">
+		<property name="decayTime">
+			<value>2900</value>
+		</property>
+		<property name="earlyDelay">
+			<value>15</value>
+		</property>
+		<property name="lateDelay">
+			<value>22</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>100</value>
+		</property>
+		<property name="highCut">
+			<value>20000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>59</value>
+		</property>
+		<property name="wetLevel">
+			<value>-11.3000002</value>
+		</property>
+	</object>
+</objects>

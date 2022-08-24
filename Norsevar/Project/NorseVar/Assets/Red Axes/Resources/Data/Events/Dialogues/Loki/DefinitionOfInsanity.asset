@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -198157777
-      Data2: 1096944821
-      Data3: 681505671
-      Data4: -212088639
-    Path: event:/SFX/Voicelines/Loki/twink_5
+      Data1: 1310560764
+      Data2: 1230480543
+      Data3: 1701619891
+      Data4: 768158713
+    Path: event:/SFX/REPEAT/Voicelines/Loki/DefinitionOfInsanity
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Try and try again, things might be different this time...
   startDialogue: 0
   dialogueId: 

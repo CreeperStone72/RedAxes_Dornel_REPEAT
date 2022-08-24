@@ -154,8 +154,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e09a31210d020d428b3fcd18e9b7f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  standaloneRun: 1
   cameraTransform: {fileID: 1346804977}
-  skippedTile: {fileID: 11400000, guid: 40a8a6a14ffb81e42a29bda9e0957711, type: 2}
+  skippedTile: {fileID: 11400000, guid: 0099c0b099eb28445ad8dde2395a428c, type: 2}
   spawnProp:
   - m_PersistentCalls:
       m_Calls:
@@ -185,12 +186,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  samplingSettings: {fileID: 11400000, guid: 4cb7cec764d731d41a3f21869f7b1bdd, type: 2}
-  displayRadius: 1
+  samplingSettings: {fileID: 11400000, guid: 3a6b0d1124bff97448066a7e1b053bfb, type: 2}
+  displayRadius: 5
   possibleValues:
-  - {fileID: 11400000, guid: 40a8a6a14ffb81e42a29bda9e0957711, type: 2}
-  - {fileID: 11400000, guid: 586021745ee432f4aa5f59bdf7c7522b, type: 2}
-  - {fileID: 11400000, guid: ed109ab98e6e3f748ae6473e9762e9f0, type: 2}
+  - {fileID: 11400000, guid: 0099c0b099eb28445ad8dde2395a428c, type: 2}
+  - {fileID: 11400000, guid: e527d76cda613a94ab487b87d22e2409, type: 2}
+  - {fileID: 11400000, guid: 4f71423647dfaf74487a3b2c3799a7fa, type: 2}
 --- !u!4 &151213291
 Transform:
   m_ObjectHideFlags: 0
@@ -436,7 +437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346804974}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 500, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

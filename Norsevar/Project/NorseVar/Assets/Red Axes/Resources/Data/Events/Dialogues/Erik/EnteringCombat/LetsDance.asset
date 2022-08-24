@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -290570646
-      Data2: 1245641780
-      Data3: 662320276
-      Data4: -725117266
-    Path: event:/SFX/Voicelines/Erik/OnCombatEnter/encombat_dance
+      Data1: -1774591591
+      Data2: 1282766953
+      Data3: -1833315655
+      Data4: -1335280875
+    Path: event:/SFX/REPEAT/Voicelines/Erik/OnCombatEnter/LetsDance
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

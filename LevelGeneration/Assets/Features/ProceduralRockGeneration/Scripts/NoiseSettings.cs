@@ -36,8 +36,6 @@
         }
 
         [Serializable]
-        public class RigidNoiseSettings : SimpleNoiseSettings {
-            public float weightMultiplier = .8f;
-        }
+        public class RigidNoiseSettings : SimpleNoiseSettings { public float weightMultiplier = .8f; }
     }
 }

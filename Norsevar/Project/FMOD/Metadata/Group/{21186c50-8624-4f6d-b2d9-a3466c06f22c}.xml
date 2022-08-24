@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{21186c50-8624-4f6d-b2d9-a3466c06f22c}">
+		<property name="name">
+			<value>Loki</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{be9142e2-f597-4667-9e67-7ea8f18f4414}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{bd422513-af73-4c60-aa95-cceb6acc878a}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f10d11e4-c0ef-4deb-bf99-e47fb0ec77d5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{be9142e2-f597-4667-9e67-7ea8f18f4414}">
+		<relationship name="effects">
+			<destination>{14f88869-de48-4d7d-87e5-690ef284444d}</destination>
+			<destination>{f5087f64-af34-4385-927a-6f963dd09b97}</destination>
+			<destination>{ea8f65f9-152c-4a0b-b572-d51b51ed17e9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{bd422513-af73-4c60-aa95-cceb6acc878a}" />
+	<object class="MixerBusFader" id="{14f88869-de48-4d7d-87e5-690ef284444d}" />
+	<object class="DelayEffect" id="{f5087f64-af34-4385-927a-6f963dd09b97}">
+		<property name="delay">
+			<value>200</value>
+		</property>
+		<property name="feedback">
+			<value>36</value>
+		</property>
+		<property name="level">
+			<value>-5</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{ea8f65f9-152c-4a0b-b572-d51b51ed17e9}">
+		<property name="decayTime">
+			<value>2900</value>
+		</property>
+		<property name="earlyDelay">
+			<value>15</value>
+		</property>
+		<property name="lateDelay">
+			<value>22</value>
+		</property>
+		<property name="HFDecayRatio">
+			<value>100</value>
+		</property>
+		<property name="highCut">
+			<value>20000</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>59</value>
+		</property>
+		<property name="wetLevel">
+			<value>-11.3000002</value>
+		</property>
+	</object>
+</objects>

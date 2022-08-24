@@ -18,6 +18,7 @@ MonoBehaviour:
   levels:
   - {fileID: 11400000, guid: 6ff39ba327731b84ab9f0bb228b66f0b, type: 2}
   - {fileID: 11400000, guid: 6850b0b15c3047d5b4308e745aba791e, type: 2}
+  - {fileID: 0}
   player: {fileID: 11400000, guid: 1d7ccc61b0c34a83a1dab0850586c4a3, type: 2}
   roomSelection: {fileID: 11400000, guid: c61a2d5f630e2da4a958ed902e4bad59, type: 2}
   rooms:

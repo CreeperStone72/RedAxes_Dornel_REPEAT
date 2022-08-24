@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -1975367339
-      Data2: 1093969751
-      Data3: 1668391598
-      Data4: 489684015
-    Path: event:/SFX/Voicelines/Erik/Resurrection/res_thanks
+      Data1: -541025668
+      Data2: 1293236631
+      Data3: 499295927
+      Data4: 1265945395
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Dialogues/Resurrection/4_Thanks
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Thanks, I guess... But what now ?
   startDialogue: 0
   dialogueId: 

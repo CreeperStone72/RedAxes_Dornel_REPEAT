@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Interactable
   - Enemy
+  - Environment
+  - Fight1
+  - Fight2
+  - Fight3
   layers:
   - Default
   - TransparentFX

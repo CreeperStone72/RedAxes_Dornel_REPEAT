@@ -15,18 +15,19 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -525207415
-      Data2: 1170554961
-      Data3: 1495026843
-      Data4: 1095036139
-    Path: event:/SFX/Voicelines/Erik/Resurrection/res_valhalla
+      Data1: 1446699573
+      Data2: 1279964071
+      Data3: 1980626594
+      Data4: -1256094697
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Dialogues/Resurrection/5_Valhalla
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: No warrior feasted in Valhalla by running away. My journey isn't
+    over.
   startDialogue: 0
   dialogueId: 

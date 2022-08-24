@@ -1,8 +1,8 @@
-﻿using ProceduralTerrainGeneration;
-using UnityEngine;
-using Utility;
-
-namespace ProceduralForestGeneration {
+﻿namespace ProceduralForestGeneration {
+    using ProceduralTerrainGeneration;
+    using UnityEngine;
+    using Utility;
+    
     public class ForestGenerator : MonoBehaviour {
         private MapPreview _map;
         private PropPlacer3D _props;

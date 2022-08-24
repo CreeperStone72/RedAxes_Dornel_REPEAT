@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 394804778
-      Data2: 1306948372
-      Data3: -1981272663
-      Data4: -950123850
-    Path: event:/SFX/Voicelines/Erik/Resurrection/res_loki
+      Data1: -166028006
+      Data2: 1269731753
+      Data3: 2110289815
+      Data4: 1157409160
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Dialogues/Resurrection/2_Loki
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: Loki ? What's even going on ? How come I am still alive ?
   startDialogue: 0
   dialogueId: 

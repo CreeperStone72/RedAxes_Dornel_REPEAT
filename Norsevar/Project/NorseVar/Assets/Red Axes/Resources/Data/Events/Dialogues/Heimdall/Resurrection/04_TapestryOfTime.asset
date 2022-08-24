@@ -15,18 +15,19 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 1460960672
-      Data2: 1317917674
-      Data3: -2136231547
-      Data4: -1540868662
-    Path: event:/SFX/Voicelines/Heimdall/TapestryOfTime
+      Data1: -648954839
+      Data2: 1299015196
+      Data3: 84294314
+      Data4: -344240978
+    Path: event:/SFX/REPEAT/Voicelines/Heimdall/4_TapestryOfTime
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: I unravelled the Tapestry of Time, to protect a fierce warrior so
+    sublime.
   startDialogue: 0
   dialogueId: 

@@ -7,8 +7,8 @@
 
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property | AttributeTargets.Class | AttributeTargets.Struct, Inherited = true)]
     public class ConditionalHideAttribute : PropertyAttribute {
-        public string conditionalSourceField;
-        public int enumIndex;
+        public readonly string conditionalSourceField;
+        public readonly int enumIndex;
 
         public ConditionalHideAttribute(string boolVariableName) {
             conditionalSourceField = boolVariableName;

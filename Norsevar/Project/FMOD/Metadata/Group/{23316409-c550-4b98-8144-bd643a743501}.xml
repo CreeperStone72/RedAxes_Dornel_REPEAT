@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{23316409-c550-4b98-8144-bd643a743501}">
+		<property name="name">
+			<value>Forest</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{4edec719-ea5a-40d5-968b-655e5ed0510e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{0475c20d-4575-4da8-ba8e-2e780c8d4666}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{9f862357-e2be-4e2a-ba7e-df60b2f86f1a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{4edec719-ea5a-40d5-968b-655e5ed0510e}">
+		<relationship name="effects">
+			<destination>{046bf0aa-9774-4905-95f5-7efae74950cd}</destination>
+			<destination>{8f603be9-0b30-4262-9192-eca4f7538d23}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{0475c20d-4575-4da8-ba8e-2e780c8d4666}" />
+	<object class="MixerBusFader" id="{046bf0aa-9774-4905-95f5-7efae74950cd}" />
+	<object class="SFXReverbEffect" id="{8f603be9-0b30-4262-9192-eca4f7538d23}">
+		<property name="earlyDelay">
+			<value>179</value>
+		</property>
+		<property name="lateDelay">
+			<value>100</value>
+		</property>
+		<property name="diffusion">
+			<value>21</value>
+		</property>
+		<property name="highCut">
+			<value>1670</value>
+		</property>
+		<property name="earlyLateMix">
+			<value>65</value>
+		</property>
+		<property name="wetLevel">
+			<value>-28</value>
+		</property>
+	</object>
+</objects>

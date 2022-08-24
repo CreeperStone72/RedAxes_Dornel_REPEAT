@@ -1,3 +1,5 @@
+using UnityEngine.Serialization;
+
 namespace ProceduralTerrainGeneration {
     using UnityEngine;
     
@@ -19,7 +21,7 @@ namespace ProceduralTerrainGeneration {
                 octaveOffsets[i] = new Vector2(offsetX, offsetY);
 
                 maxGlobalHeight += amplitude;
-                amplitude *= settings.persistance;
+                amplitude *= settings.persistence;
             }
 
             if (settings.scale <= 0) settings.scale = 0.0001f;
@@ -40,7 +42,7 @@ namespace ProceduralTerrainGeneration {
                         var perlinValue = Mathf.PerlinNoise(sampleX, sampleY) * 2 - 1;
                         noiseHeight += perlinValue * amplitude;
 
-                        amplitude *= settings.persistance;
+                        amplitude *= settings.persistence;
                         frequency *= settings.lacunarity;
                     }
 
@@ -73,7 +75,7 @@ namespace ProceduralTerrainGeneration {
         public float scale = 50;
 
         public int octaves = 6;
-        [Range(0, 1)] public float persistance = .6f;
+        [FormerlySerializedAs("persistance")] [Range(0, 1)] public float persistence = .6f;
         public float lacunarity = 2;
 
         public int seed;
@@ -82,7 +84,7 @@ namespace ProceduralTerrainGeneration {
         public void ValidateValues() {
             scale = Mathf.Max(scale, 0.01f);
             octaves = Mathf.Max(octaves, 1);
-            persistance = Mathf.Clamp01(persistance);
+            persistence = Mathf.Clamp01(persistence);
             lacunarity = Mathf.Max(lacunarity, 1);
         }
     }

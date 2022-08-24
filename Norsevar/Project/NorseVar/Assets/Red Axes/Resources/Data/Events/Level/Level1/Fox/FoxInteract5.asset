@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf31afbdb2f854cbc882f3b1c7c89f, type: 3}
   m_Name: FoxInteract5
   m_EditorClassIdentifier: 
-  sound: 0
+  sound: 1
   fmodEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -694668028
+      Data2: 1129605240
+      Data3: 874383793
+      Data4: 1153711373
+    Path: event:/SFX/REPEAT/Voicelines/Erik/PointOfInterest/Fox/5_Forest
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: Oh no, you're not leaving in the forest before I get answers.
+  playerSayText: Oh no, you're not leaving.
   startDialogue: 0
   dialogueId: 

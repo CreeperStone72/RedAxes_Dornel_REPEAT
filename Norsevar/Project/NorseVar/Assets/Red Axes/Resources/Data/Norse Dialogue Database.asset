@@ -831,11 +831,11 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: SetContinueMode(true)
         type: 0
         typeString: CustomFieldType_Text
       - title: EventGuid
-        value: a487ea3a-bf64-4e2c-ab25-a9abf738d958
+        value: 491fc2e3-42de-4924-bb32-7f684b45f6f9
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 3
@@ -868,11 +868,11 @@ MonoBehaviour:
       - title: Title
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Description
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Actor
         value: 1
         type: 5
@@ -884,19 +884,19 @@ MonoBehaviour:
       - title: Menu Text
         value: 
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: What the- Who are you? Where are you?
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: Sequence
-        value: 
+        value: Continue()
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       - title: EventGuid
-        value: 40190faa-5c1d-48be-93e1-6b0d7122cd84
+        value: 7509bc47-db5e-442e-b8f1-fd2b5b312908
         type: 0
-        typeString: 
+        typeString: CustomFieldType_Text
       conversationID: 3
       isRoot: 0
       isGroup: 0
@@ -950,11 +950,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(true)
         type: 0
         typeString: 
       - title: EventGuid
-        value: 9e9a704f-74af-4e85-aa42-4002cb2c9c24
+        value: 50f0f98d-41c4-4cfd-88df-d7e4f2009ab8
         type: 0
         typeString: 
       conversationID: 3
@@ -979,7 +979,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 29
-        y: 171
+        y: 169.73419
         width: 160
         height: 30
     - id: 4
@@ -1009,11 +1009,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue()
         type: 0
         typeString: 
       - title: EventGuid
-        value: 6da7d6ca-46f8-48a4-a36f-7fc81add65ac
+        value: d02931ad-f668-4d91-a35b-cd18aafaf94b
         type: 0
         typeString: 
       conversationID: 3
@@ -1069,11 +1069,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(true)
         type: 0
         typeString: 
       - title: EventGuid
-        value: 871ba95e-a542-41dc-a42c-9a9f16ee4243
+        value: 4dccb211-c8f7-429b-9252-45e78a5b6fdf
         type: 0
         typeString: 
       conversationID: 3
@@ -1128,11 +1128,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue()
         type: 0
         typeString: 
       - title: EventGuid
-        value: 0ce9f4fe-5b00-4593-af67-a496d0e45120
+        value: e7149ee8-7760-4687-a9e6-09ee2c21d37e
         type: 0
         typeString: 
       conversationID: 3
@@ -1188,11 +1188,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(true)
         type: 0
         typeString: 
       - title: EventGuid
-        value: b6c96566-5273-4438-a3f2-18b11a2d45b8
+        value: 52325f35-103d-4836-a2eb-be3397886d82
         type: 0
         typeString: 
       conversationID: 3
@@ -1247,11 +1247,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue()
         type: 0
         typeString: 
       - title: EventGuid
-        value: 439580a4-8059-4a64-8059-6bd46ffc795e
+        value: b67d1c03-bd6d-43bd-90e3-4ac735a02a0b
         type: 0
         typeString: 
       conversationID: 3
@@ -1307,11 +1307,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: SetContinueMode(true)
         type: 0
         typeString: 
       - title: EventGuid
-        value: b817c9e5-16ce-423c-9d41-07b133bf4e9d
+        value: 07ee00a8-2bbe-44f7-8d19-b7fec8aaebde
         type: 0
         typeString: 
       conversationID: 3
@@ -1366,11 +1366,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: Continue()
         type: 0
         typeString: 
       - title: EventGuid
-        value: a9adf04d-c16c-413a-9165-0e04406be74e
+        value: b2d81bb2-7f66-4f37-a456-f6d1f123c1ca
         type: 0
         typeString: 
       conversationID: 3

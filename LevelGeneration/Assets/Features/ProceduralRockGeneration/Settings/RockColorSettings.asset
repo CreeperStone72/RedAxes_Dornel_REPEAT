@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6ceee98106e046140ad5d18e99192188, type: 3}
-  m_Name: DefaultColorSettings
+  m_Name: RockColorSettings
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 9b6bf02988379a04db541d3b94ae100f, type: 2}
   biomeColorSettings:

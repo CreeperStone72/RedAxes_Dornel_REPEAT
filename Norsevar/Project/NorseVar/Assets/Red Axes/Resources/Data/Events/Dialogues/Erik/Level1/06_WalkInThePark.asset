@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -705349485
-      Data2: 1143868812
-      Data3: -1347403899
-      Data4: 800175152
-    Path: event:/SFX/Voicelines/Erik/Level1/Lv1_walkinthebleedinpark
+      Data1: -1080002056
+      Data2: 1164082010
+      Data3: -594620490
+      Data4: -1667907760
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Dialogues/Level1/6_WalkInThePark
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

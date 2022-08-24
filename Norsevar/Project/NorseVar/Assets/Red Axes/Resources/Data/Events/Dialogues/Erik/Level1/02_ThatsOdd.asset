@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -2012276611
-      Data2: 1219551636
-      Data3: 1610345862
-      Data4: -1651483462
-    Path: event:/SFX/Voicelines/Erik/Level1/Lv1_wolvesAfter
+      Data1: -1466967868
+      Data2: 1187291833
+      Data3: 899473541
+      Data4: -1696317172
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Dialogues/Level1/2_UnusualAttack
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

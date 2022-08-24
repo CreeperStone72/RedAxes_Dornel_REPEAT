@@ -1,7 +1,6 @@
-﻿using System.Linq;
-
-namespace ProceduralForestGeneration {
+﻿namespace ProceduralForestGeneration {
     using ProceduralPropPlacement;
+    using System.Linq;
     using UnityEngine;
 
     [RequireComponent(typeof(PoissonCollapse))]

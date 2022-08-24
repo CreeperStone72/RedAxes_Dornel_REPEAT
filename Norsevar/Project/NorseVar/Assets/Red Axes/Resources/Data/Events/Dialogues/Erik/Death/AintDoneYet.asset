@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: 1823512388
-      Data2: 1314646150
-      Data3: 1432135326
-      Data4: 2093867283
-    Path: event:/SFX/Voicelines/Erik/OnDeath/death_done
+      Data1: 1981900437
+      Data2: 1175681316
+      Data3: -672452164
+      Data4: 1425430787
+    Path: event:/SFX/REPEAT/Voicelines/Erik/OnDeath/NotDoneWithYou
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

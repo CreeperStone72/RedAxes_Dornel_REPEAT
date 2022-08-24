@@ -1,14 +1,11 @@
 ﻿namespace ProceduralRockGeneration {
     public static class NoiseFilterFactory {
         public static INoiseFilter CreateNoiseFilter(NoiseSettings settings) {
-            switch (settings.filterType) {
-                case NoiseSettings.FilterType.Simple:
-                    return new SimpleNoiseFilter(settings.simpleNoiseSettings);
-                case NoiseSettings.FilterType.Rigid:
-                    return new RigidNoiseFilter(settings.rigidNoiseSettings);
-            }
-
-            return null;
+            return settings.filterType switch {
+                NoiseSettings.FilterType.Simple => new SimpleNoiseFilter(settings.simpleNoiseSettings),
+                NoiseSettings.FilterType.Rigid => new RigidNoiseFilter(settings.rigidNoiseSettings),
+                _ => null
+            };
         }
     }
 }

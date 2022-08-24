@@ -15,11 +15,11 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -481093656
-      Data2: 1097326992
-      Data3: 2110687909
-      Data4: 822049371
-    Path: event:/SFX/Voicelines/Erik/Trailer
+      Data1: 1046367312
+      Data2: 1311362739
+      Data3: -1108175193
+      Data4: 1327543105
+    Path: event:/SFX/REPEAT/Voicelines/Erik/Trailer
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}

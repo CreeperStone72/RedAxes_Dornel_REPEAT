@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00cf31afbdb2f854cbc882f3b1c7c89f, type: 3}
   m_Name: FoxInteract4
   m_EditorClassIdentifier: 
-  sound: 0
+  sound: 1
   fmodEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -119571869
+      Data2: 1320504252
+      Data3: 128666266
+      Data4: -1949529731
+    Path: event:/SFX/REPEAT/Voicelines/Erik/PointOfInterest/Fox/4_BraveReckless
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
@@ -27,6 +27,6 @@ MonoBehaviour:
   timeScale: 0
   timeScaleData: {fileID: 0}
   playerSay: 1
-  playerSayText: "Heh, brave and reckless it is\u2026 Wait, what\u2019s that ?"
+  playerSayText: "Heh, brave and reckless it is\u2026"
   startDialogue: 0
   dialogueId: 

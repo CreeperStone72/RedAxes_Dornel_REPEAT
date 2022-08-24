@@ -15,18 +15,18 @@ MonoBehaviour:
   sound: 1
   fmodEvent:
     Guid:
-      Data1: -1306156993
-      Data2: 1218117479
-      Data3: 1704440482
-      Data4: 588418225
-    Path: event:/SFX/Voicelines/Heimdall/TheGodOfMischief
+      Data1: -774701211
+      Data2: 1304322634
+      Data3: -910465879
+      Data4: -148477705
+    Path: event:/SFX/REPEAT/Voicelines/Heimdall/3_TheGodOfMischief
   vfx: 0
   vfxOffset: {x: 0, y: 0, z: 0}
   vfxPrefab: {fileID: 0}
   vfxTime: 0
   timeScale: 0
   timeScaleData: {fileID: 0}
-  playerSay: 0
-  playerSayText: 
+  playerSay: 1
+  playerSayText: The God of Mischief has cast a curse upon these trees.
   startDialogue: 0
   dialogueId: 

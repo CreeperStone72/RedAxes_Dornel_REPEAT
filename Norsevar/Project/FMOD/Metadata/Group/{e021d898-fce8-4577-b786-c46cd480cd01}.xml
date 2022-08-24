@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{e021d898-fce8-4577-b786-c46cd480cd01}">
+		<property name="name">
+			<value>Resurrection</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{48279f98-8be3-4650-af74-53d327f222cb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{6e44020b-56da-4100-92de-dc0d7932b507}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{aaed8d4c-6125-476f-b30b-76043a296933}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{48279f98-8be3-4650-af74-53d327f222cb}">
+		<relationship name="effects">
+			<destination>{951f15c4-d1b4-482a-82ab-8d33ea641394}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{6e44020b-56da-4100-92de-dc0d7932b507}" />
+	<object class="MixerBusFader" id="{951f15c4-d1b4-482a-82ab-8d33ea641394}" />
+</objects>
