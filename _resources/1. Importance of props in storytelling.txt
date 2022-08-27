@@ -1,0 +1,50 @@
+Understanding
+
+Environmental story telling
+Small optional self-contained vignettes
+"Staging player-space with environmental properties that can be interpreted as a meaningful whole, furthering the narrative of the game" - Matthias Worch, Harvey Smith
+Deductive reasoning
+Active participant in the storytelling
+
+  /\   HIGH   - Environmental storytelling
+ /  \  MEDIUM - Level design
+/____\ LOW    - World building
+
+Level design : Architecture, layout, materials, scale
+Credibility : Meets the basic expectations, but doesn't need to make perfect sense
+
+Feeling
+
+Identity
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Plot
+Storyline
+
+- Be original
+- Have a twist
+- Have something to say
+
+Incorporate it into the mechanics
+
+Character
+Fleshes out the... characters
+Expense of the plot
+
+Character design, movement, stance, etc.
+Think who they be
+Small details, not broad strokes
+
+Lore
+Makes the world feel vibrant and alive
+
+World delivers the lore
+Consistency is key
+Story bible
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Sources :
+- How Level Design Can Tell a Story (Game Maker's Toolkit) : https://www.youtube.com/watch?v=RwlnCn2EB9o
+- The Three Pillars of Game Writing - Plot, Character, Lore - Extra Credits (Extra Credits) : https://www.youtube.com/watch?v=wNNXdoj7cCQ
